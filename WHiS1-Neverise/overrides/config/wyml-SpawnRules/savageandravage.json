@@ -1,0 +1,54 @@
+{
+	"mod": "savageandravage",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"creepie": {
+						// Do not edit this name
+						"name": "creepie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"trickster": {
+						// Do not edit this name
+						"name": "trickster",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"skeleton_villager": {
+						// Do not edit this name
+						"name": "skeleton_villager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"iceologer": {
+						// Do not edit this name
+						"name": "iceologer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"executioner": {
+						// Do not edit this name
+						"name": "executioner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"griefer": {
+						// Do not edit this name
+						"name": "griefer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

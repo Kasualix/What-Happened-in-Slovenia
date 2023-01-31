@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "wstweaks:fragment"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "count" : 1,
+                    "name": "ba_bt:guardian_eye_land"
+                }
+            ]
+        }
+    ]
+}

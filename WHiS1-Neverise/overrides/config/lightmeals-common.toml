@@ -1,0 +1,49 @@
+
+[general]
+
+	#Set to true, to disable the Mobdrops
+	[general.disable_mobdrops]
+		#If set to true, bats are not allowed to drop Bat Wings
+		disableBatWingsDrop = false
+		#If set to true, horses are not allowed to drop Horse Meat
+		disableHorseMeatDrop = false
+		#If set to true, ocelots are not allowed to drop Ocelot Meat
+		disableOcelotMeatDrop = false
+		#If set to true, Parrots are not allowed to drop Parrot
+		disableParrotDrop = false
+		#If set to true, polar bears are not allowed to drop Polar Bear Meat
+		disablePolarBearMeatDrop = false
+		#If set to true, squids are not allowed to drop Squid
+		disableSquidDrop = false
+		#If set to true, wolves are not allowed to drop Wolf Meat
+		disableWolfMeatDrop = false
+
+	#Set to true, to disable the Recipes
+	[general.disable_recipes]
+		#Disable Baby Carrot Recipe
+		disableRecipeBabyCarrot = false
+		#Disable Bacon Recipe
+		disableRecipeBacon = false
+		#Disable Cactus Slice Recipe
+		disableRecipeCactusSlice = false
+		#Disable Caramel Ingot Recipe
+		disableRecipeCaramelIngot = false
+		#Disable Cooked Mushroom Recipe
+		disableRecipeCookedMushroom = false
+		#Disable Cooked Rabbit Foot Recipe
+		disableRecipeCookedRabbitFoot = false
+		#Disable Cooked Scute Recipe
+		disableRecipeCookedScute = false
+		#Disable Cooked Tropical Fish Recipe
+		disableRecipeCookedTropicalFish = false
+		#Disable Cooked Turtle Egg Recipe
+		disableRecipeCookedTurtleEgg = false
+		#Disable Mashed Potato Recipe
+		disableRecipeMashedPotato = false
+		#Disable Raw Egg Recipe
+		disableRecipeRawEgg = false
+		#Disable Raw Fish Fillet Recipe
+		disableRecipeRawFishFillet = false
+		#Disable Small Cake Recipe
+		disableRecipeSmallCake = false
+

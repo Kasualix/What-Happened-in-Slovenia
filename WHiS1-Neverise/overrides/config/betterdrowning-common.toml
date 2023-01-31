@@ -1,0 +1,33 @@
+
+#General settings for the mod.
+[general]
+
+	#Settings for the max air fix feature.
+	[general.max-air-fix]
+		#Should players have their air bubbles reset to the maximum if it is above the maximum?
+		enabled = true
+
+	#Settings for the stronger drowning feature.
+	[general.stronger-drowning]
+		#Should players take more drowning damage the deeper they are?
+		enabled = true
+		#The depth players can safely dive without this effect applying.
+		#Range: > 0
+		safe-depths = 10
+		#The amount of damage to do per block below the safe depth.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		damage = 0.1
+
+	#Settings for the water fog feature.
+	[general.water-fog]
+		#Should water fog be modified?
+		enabled = true
+		#The amount to modify the water fog by. 0 is no fog, 1 is vanilla fog.
+		#Range: 0.0 ~ 1.0
+		damage = 0.1
+
+	#Settings for the air refill feature.
+	[general.air-refill]
+		#Should air be instantly refilled when out of water like in 1.13 and below?
+		enabled = false
+

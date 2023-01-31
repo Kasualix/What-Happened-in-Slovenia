@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.wda.find_infested_temple.title",
+            "color": "dark_red"
+        },
+        "description": {
+            "translate": "advancements.wda.find_infested_temple.description"
+        },
+        "icon": {
+            "item": "minecraft:infested_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location0": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "dungeons_arise:infested_temple"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "location0"
+        ]
+    ],
+    "parent": "dungeons_arise:find_abandoned_temple"
+}

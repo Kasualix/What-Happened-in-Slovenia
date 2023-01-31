@@ -1,0 +1,48 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "whis:dimdun", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 40,
+        "maxY": 240,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 64,  
+    "minimumSpacing": 40,          
+    "seed": 5201314,
+    "avoidOthers": true,       
+    
+    "dimensions": [
+        "aoa3:abyss",
+        "aoa3:barathos",
+        "aoa3:candyland",
+        "aoa3:celeve",
+        "aoa3:creeponia",
+        "aoa3:crystevia",
+        "aoa3:deeplands",
+        "aoa3:dustopia",
+        "aoa3:gardencia",
+        "aoa3:greckon",
+        "aoa3:haven",
+        "aoa3:iromine",
+        "aoa3:lborean",
+        "aoa3:lelyetia",
+        "aoa3:lunalus",
+        "aoa3:mysterium",
+        "aoa3:precasia",
+        "aoa3:runandor",
+        "aoa3:shyrelands",
+        "aoa3:vox_ponds"
+    ]
+}

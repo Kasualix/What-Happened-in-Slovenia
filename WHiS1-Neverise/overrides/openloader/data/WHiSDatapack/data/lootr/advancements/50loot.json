@@ -1,0 +1,26 @@
+{
+    "parent": "lootr:25loot",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "title": {
+            "translate": "lootr.advancements.50loot.title"
+        },
+        "description": {
+            "translate": "lootr.advancements.50loot.description"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "loot_stat": {
+            "trigger": "lootr:score",
+            "conditions": {
+                "score": 50
+            }
+        }
+    }
+}

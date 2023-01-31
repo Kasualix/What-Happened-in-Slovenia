@@ -1,0 +1,25 @@
+{
+	"mod": "weeping_angels",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"anomaly": {
+						// Do not edit this name
+						"name": "anomaly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"weeping_angel": {
+						// Do not edit this name
+						"name": "weeping_angel",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

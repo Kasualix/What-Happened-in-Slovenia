@@ -1,0 +1,146 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wstweaks:fragment"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 1,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:book"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_blaze_stout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_blaze_milk_stout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_apple_lambic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_sweet_berry_kriek"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_haars_icey_pale_lager"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_pumpkin_kvass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "drinkbeer:beer_mug_night_howl_kvass"
+        }
+      ]
+    }
+  ]
+}

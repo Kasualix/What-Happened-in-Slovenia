@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "advancements.wda.find_infested_temple_map.title"
+    },
+    "description": {
+      "translate": "advancements.wda.find_infested_temple_map.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "dungeons_arise:find_monasteries",
+  "criteria": {
+    "find_map": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "dungeons_arise:chests/monastery/monastery_map"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find_map"
+    ]
+  ]
+}

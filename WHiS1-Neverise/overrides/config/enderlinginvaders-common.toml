@@ -1,0 +1,33 @@
+
+["Configure Your Enderling Invaders Mod!"]
+	#
+	#Controlls how often Enderling Patrols spawn (larger number means more rare) usually set to 100000 (game will crash if set to 0)
+	"Enderling Patrol Rarity" = 100000
+	#
+	#Controlls how many Enderling Patrols can be active at once (set to 0 if you want to disable spawning altogether) usually set to 1
+	"Enderling Patrol Amount" = 1
+	#
+	#Controlls how far away Enderling Patrols can be before they despawn, usually set to 150
+	"Enderling Patrol Distance" = 150
+	#
+	#Controlls how many followers the Endersent will have in Enderling Patrols, usually set to 9
+	"Enderling Patrol Followers" = 9
+	#
+	#Controlls whether the Endersent is surrounded by a veil of fog, usually set to true
+	"Endersent Fog" = true
+	#
+	#Controlls whether the Endersent plays its music from Minecraft Dungeons, usually set to true
+	"Endersent Music" = true
+	#
+	#Controlls whether Enderlings are aggressive on sight, turning to false will make attack rules the same as the regular Enderman, usually set to true
+	"Enderling Aggression" = true
+	#
+	#Controlls whether Thumplings break blocks they ram into, usually set to true
+	"Thumplings Destroy Blocks" = true
+	#
+	#Controlls whether Blastlings break blocks they shoot, usually set to true
+	"Blastlings Destroy Blocks" = true
+	#
+	#Controlls whether Enderlings have their retexture by the one and only 8HP, usually set to false
+	"8HP Retextures" = false
+

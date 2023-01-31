@@ -1,0 +1,823 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5536, key_activated: 1, dest_z: 7973, name_part_1: 3, built: 0, name_type: 0, name_part_2: 24, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5536, key_activated: 1, dest_z: 7973, name_part_1: 3, built: 0, name_type: 0, name_part_2: 24, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7485, key_activated: 1, dest_z: 3923, name_part_1: 8, built: 0, name_type: 1, name_part_2: 29, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5290, key_activated: 1, dest_z: 6114, name_part_1: 4, built: 0, name_type: 2, name_part_2: 1, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5548, key_activated: 1, dest_z: 426, name_part_1: 18, built: 0, name_type: 1, name_part_2: 16, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3142, key_activated: 1, dest_z: 6346, name_part_1: 19, built: 0, name_type: 0, name_part_2: 17, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 4209, key_activated: 1, dest_z: 6529, name_part_1: 26, built: 0, name_type: 0, name_part_2: 9, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3245, key_activated: 1, dest_z: 6345, name_part_1: 20, built: 0, name_type: 1, name_part_2: 10, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1863, key_activated: 1, dest_z: 7814, name_part_1: 22, built: 0, name_type: 1, name_part_2: 28, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5963, key_activated: 1, dest_z: 1434, name_part_1: 10, built: 0, name_type: 1, name_part_2: 7, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3135, key_activated: 1, dest_z: 4038, name_part_1: 19, built: 0, name_type: 1, name_part_2: 4, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 2944, key_activated: 1, dest_z: 554, name_part_1: 2, built: 0, name_type: 2, name_part_2: 11, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1249, key_activated: 1, dest_z: 275, name_part_1: 19, built: 0, name_type: 0, name_part_2: 28, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6159, key_activated: 1, dest_z: 6737, name_part_1: 15, built: 0, name_type: 0, name_part_2: 19, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 610, key_activated: 1, dest_z: 6657, name_part_1: 9, built: 0, name_type: 1, name_part_2: 6, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 2199, key_activated: 1, dest_z: 7082, name_part_1: 18, built: 0, name_type: 2, name_part_2: 22, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1687, key_activated: 1, dest_z: 4574, name_part_1: 31, built: 0, name_type: 0, name_part_2: 31, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1169, key_activated: 1, dest_z: 1799, name_part_1: 18, built: 0, name_type: 0, name_part_2: 18, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3025, key_activated: 1, dest_z: 7444, name_part_1: 5, built: 0, name_type: 2, name_part_2: 3, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3756, key_activated: 1, dest_z: 7406, name_part_1: 22, built: 0, name_type: 1, name_part_2: 28, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5819, key_activated: 1, dest_z: 4135, name_part_1: 8, built: 0, name_type: 1, name_part_2: 11, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 767, key_activated: 1, dest_z: 4541, name_part_1: 6, built: 0, name_type: 2, name_part_2: 20, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 2425, key_activated: 1, dest_z: 792, name_part_1: 11, built: 0, name_type: 1, name_part_2: 20, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5404, key_activated: 1, dest_z: 4567, name_part_1: 27, built: 0, name_type: 0, name_part_2: 3, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3438, key_activated: 1, dest_z: 6951, name_part_1: 31, built: 0, name_type: 1, name_part_2: 9, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6751, key_activated: 1, dest_z: 2251, name_part_1: 17, built: 0, name_type: 2, name_part_2: 21, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 500, key_activated: 1, dest_z: 2126, name_part_1: 12, built: 0, name_type: 2, name_part_2: 12, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5786, key_activated: 1, dest_z: 4725, name_part_1: 13, built: 0, name_type: 2, name_part_2: 20, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6804, key_activated: 1, dest_z: 6355, name_part_1: 18, built: 0, name_type: 1, name_part_2: 10, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5670, key_activated: 1, dest_z: 4391, name_part_1: 12, built: 0, name_type: 1, name_part_2: 28, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 2967, key_activated: 1, dest_z: 2385, name_part_1: 7, built: 0, name_type: 2, name_part_2: 22, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3807, key_activated: 1, dest_z: 6421, name_part_1: 21, built: 0, name_type: 1, name_part_2: 22, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 704, key_activated: 1, dest_z: 5295, name_part_1: 18, built: 0, name_type: 2, name_part_2: 22, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1809, key_activated: 1, dest_z: 518, name_part_1: 9, built: 0, name_type: 2, name_part_2: 29, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3583, key_activated: 1, dest_z: 3862, name_part_1: 13, built: 0, name_type: 1, name_part_2: 26, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 2525, key_activated: 1, dest_z: 5854, name_part_1: 5, built: 0, name_type: 2, name_part_2: 14, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 2522, key_activated: 1, dest_z: 4767, name_part_1: 17, built: 0, name_type: 0, name_part_2: 16, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1476, key_activated: 1, dest_z: 7335, name_part_1: 23, built: 0, name_type: 1, name_part_2: 12, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 4442, key_activated: 1, dest_z: 37, name_part_1: 7, built: 0, name_type: 0, name_part_2: 23, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3378, key_activated: 1, dest_z: 568, name_part_1: 12, built: 0, name_type: 2, name_part_2: 24, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1456, key_activated: 1, dest_z: 2570, name_part_1: 31, built: 0, name_type: 1, name_part_2: 24, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1768, key_activated: 1, dest_z: 7921, name_part_1: 6, built: 0, name_type: 0, name_part_2: 29, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3881, key_activated: 1, dest_z: 3247, name_part_1: 16, built: 0, name_type: 2, name_part_2: 18, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6345, key_activated: 1, dest_z: 3730, name_part_1: 10, built: 0, name_type: 2, name_part_2: 0, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1133, key_activated: 1, dest_z: 5766, name_part_1: 14, built: 0, name_type: 2, name_part_2: 1, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7025, key_activated: 1, dest_z: 8101, name_part_1: 29, built: 0, name_type: 0, name_part_2: 13, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5143, key_activated: 1, dest_z: 4896, name_part_1: 4, built: 0, name_type: 1, name_part_2: 4, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 4093, key_activated: 1, dest_z: 5652, name_part_1: 8, built: 0, name_type: 2, name_part_2: 19, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5074, key_activated: 1, dest_z: 1402, name_part_1: 4, built: 0, name_type: 0, name_part_2: 14, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1056, key_activated: 1, dest_z: 2597, name_part_1: 15, built: 0, name_type: 2, name_part_2: 22, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3938, key_activated: 1, dest_z: 7598, name_part_1: 16, built: 0, name_type: 2, name_part_2: 18, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5933, key_activated: 1, dest_z: 7369, name_part_1: 19, built: 0, name_type: 2, name_part_2: 3, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7832, key_activated: 1, dest_z: 7390, name_part_1: 27, built: 0, name_type: 0, name_part_2: 7, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 582, key_activated: 1, dest_z: 7910, name_part_1: 8, built: 0, name_type: 0, name_part_2: 17, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6914, key_activated: 1, dest_z: 4653, name_part_1: 13, built: 0, name_type: 1, name_part_2: 29, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1063, key_activated: 1, dest_z: 276, name_part_1: 9, built: 0, name_type: 0, name_part_2: 8, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7156, key_activated: 1, dest_z: 323, name_part_1: 24, built: 0, name_type: 0, name_part_2: 3, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6667, key_activated: 1, dest_z: 5775, name_part_1: 25, built: 0, name_type: 1, name_part_2: 15, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7759, key_activated: 1, dest_z: 5622, name_part_1: 17, built: 0, name_type: 0, name_part_2: 29, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3186, key_activated: 1, dest_z: 3524, name_part_1: 22, built: 0, name_type: 0, name_part_2: 15, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1748, key_activated: 1, dest_z: 1198, name_part_1: 31, built: 0, name_type: 1, name_part_2: 18, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7439, key_activated: 1, dest_z: 90, name_part_1: 8, built: 0, name_type: 2, name_part_2: 16, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3423, key_activated: 1, dest_z: 5592, name_part_1: 14, built: 0, name_type: 2, name_part_2: 9, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7279, key_activated: 1, dest_z: 1975, name_part_1: 26, built: 0, name_type: 1, name_part_2: 12, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6804, key_activated: 1, dest_z: 909, name_part_1: 14, built: 0, name_type: 0, name_part_2: 15, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1561, key_activated: 1, dest_z: 5749, name_part_1: 22, built: 0, name_type: 1, name_part_2: 24, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6714, key_activated: 1, dest_z: 5323, name_part_1: 29, built: 0, name_type: 0, name_part_2: 11, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3893, key_activated: 1, dest_z: 5624, name_part_1: 1, built: 0, name_type: 1, name_part_2: 31, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 3075, key_activated: 1, dest_z: 6745, name_part_1: 29, built: 0, name_type: 0, name_part_2: 24, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1566, key_activated: 1, dest_z: 3085, name_part_1: 11, built: 0, name_type: 2, name_part_2: 10, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 6038, key_activated: 1, dest_z: 4076, name_part_1: 9, built: 0, name_type: 0, name_part_2: 22, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 870, key_activated: 1, dest_z: 6749, name_part_1: 0, built: 0, name_type: 2, name_part_2: 26, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 4164, key_activated: 1, dest_z: 3328, name_part_1: 2, built: 0, name_type: 2, name_part_2: 18, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 536, key_activated: 1, dest_z: 2321, name_part_1: 4, built: 0, name_type: 1, name_part_2: 0, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 953, key_activated: 1, dest_z: 7030, name_part_1: 30, built: 0, name_type: 1, name_part_2: 26, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7162, key_activated: 1, dest_z: 1246, name_part_1: 1, built: 0, name_type: 2, name_part_2: 8, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 8045, key_activated: 1, dest_z: 2500, name_part_1: 7, built: 0, name_type: 2, name_part_2: 23, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 7934, key_activated: 1, dest_z: 949, name_part_1: 2, built: 0, name_type: 1, name_part_2: 25, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 5227, key_activated: 1, dest_z: 7641, name_part_1: 20, built: 0, name_type: 1, name_part_2: 1, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 696, key_activated: 1, dest_z: 2493, name_part_1: 18, built: 0, name_type: 1, name_part_2: 7, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dest_x: 1671, key_activated: 1, dest_z: 7609, name_part_1: 30, built: 0, name_type: 1, name_part_2: 2, theme: 0}"
+                        }
+                    ],
+                    "name": "dimdungeons:item_portal_key"
+                }
+            ]
+        }
+    ]
+}

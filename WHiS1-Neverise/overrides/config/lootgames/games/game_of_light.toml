@@ -1,0 +1,87 @@
+
+#Regulates "Game of Light" minigame.
+[game_of_light]
+	#Regulates how many digits should be randomly chosen and shown at game-start.
+	#Range: > 1
+	#Default: 2
+	start_digit_amount = 2
+	#It represents the number of attempts the player has to beat the game successfully.
+	#Range: > 1
+	#Default: 3
+	attempt_count = 3
+	#At which stage should the playfield become a full 3x3 pattern?
+	#Set 0 to disable and keep the 4-block size; set 1 to always start with 3x3.
+	#Range: 0 ~ 4
+	#Default: 2
+	expand_field_at_stage = 2
+	#Enables or disables structure exploding on max failed attempts.
+	#Default: true
+	explode_on_fail = true
+	#Enables or disables structure filling with zombies on max failed attempts.
+	#Default: true
+	zombies_on_fail = true
+	#Enables or disables structure filling with lava on max failed attempts.
+	#Default: true
+	lava_on_fail = true
+	#How long does it take to timeout a game? Value is in seconds.
+	#If player has been inactive for given time, the game will go to sleep. The next player can start the game from the beginning.
+	#Range: > 10
+	#Default: 30
+	timeout = 30
+
+	#Regulates characteristics of stage 1.
+	[game_of_light.stage_1]
+		#Round count required to complete this stage and unlock leveled reward.
+		#Range: 1 ~ 256
+		#Default: 5
+		round_count = 5
+		#If true, the pattern will randomize on each round in this stage.
+		#Default: false
+		randomize_sequence = false
+		#Amount of time (in ticks; 20 ticks = 1s) for which the symbol will be displayed.
+		#Range: 2 ~ 40
+		#Default: 24
+		display_time = 24
+
+	#Regulates characteristics of stage 2.
+	[game_of_light.stage_2]
+		#Round count required to complete this stage and unlock leveled reward.
+		#Range: 1 ~ 256
+		#Default: 5
+		round_count = 5
+		#If true, the pattern will randomize on each round in this stage.
+		#Default: false
+		randomize_sequence = false
+		#Amount of time (in ticks; 20 ticks = 1s) for which the symbol will be displayed.
+		#Range: 2 ~ 40
+		#Default: 16
+		display_time = 16
+
+	#Regulates characteristics of stage 3.
+	[game_of_light.stage_3]
+		#Round count required to complete this stage and unlock leveled reward.
+		#Range: 1 ~ 256
+		#Default: 5
+		round_count = 5
+		#If true, the pattern will randomize on each round in this stage.
+		#Default: false
+		randomize_sequence = false
+		#Amount of time (in ticks; 20 ticks = 1s) for which the symbol will be displayed.
+		#Range: 2 ~ 40
+		#Default: 12
+		display_time = 12
+
+	#Regulates characteristics of stage 4.
+	[game_of_light.stage_4]
+		#Round count required to complete this stage and unlock leveled reward.
+		#Range: 1 ~ 256
+		#Default: 5
+		round_count = 5
+		#If true, the pattern will randomize on each round in this stage.
+		#Default: true
+		randomize_sequence = true
+		#Amount of time (in ticks; 20 ticks = 1s) for which the symbol will be displayed.
+		#Range: 2 ~ 40
+		#Default: 12
+		display_time = 12
+

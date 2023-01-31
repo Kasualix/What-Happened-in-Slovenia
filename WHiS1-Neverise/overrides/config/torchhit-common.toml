@@ -1,0 +1,23 @@
+#Fire damage duration for direct (main hand) hits.
+#Range: 1 ~ 8
+directHitDuration = 4
+#Fire damage duration for indirect (off hand + tool) hits.
+#Range: 1 ~ 8
+indirectHitDuration = 2
+#List of tools that allow for an indirect hit when a torch is being held in the off hand.
+#Leave empty to disable indirect hits.
+#Insert either item categories or specific item IDs.
+indirectHitToolList = ["sword", "axe", "pickaxe", "shovel", "hoe"]
+#List of item ids that should be considered as a Torch.
+moddedTorchList = ["bonetorch:bonetorch", "torchmaster:megatorch", "hardcore_torches:lit_torch", "magnumtorch:diamond_magnum_torch", "magnumtorch:emerald_magnum_torch", "magnumtorch:amethyst_magnum_torch", "magical_torches:mega_torch", "magical_torches:grand_torch", "magical_torches:medium_torch", "magical_torches:small_torch", "pgwbandedtorches:banded_torch_white", "pgwbandedtorches:banded_torch_orange", "pgwbandedtorches:banded_torch_magenta", "pgwbandedtorches:banded_torch_light_blue", "pgwbandedtorches:banded_torch_yellow", "pgwbandedtorches:banded_torch_lime", "pgwbandedtorches:banded_torch_pink", "pgwbandedtorches:banded_torch_gray", "pgwbandedtorches:banded_torch_light_gray", "pgwbandedtorches:banded_torch_cyan", "pgwbandedtorches:banded_torch_purple", "pgwbandedtorches:banded_torch_blue", "pgwbandedtorches:banded_torch_brown", "pgwbandedtorches:banded_torch_green", "pgwbandedtorches:banded_torch_red", "pgwbandedtorches:banded_torch_black"]
+#List of item ids that should be considered as a Soul Torch.
+moddedSoulTorchList = ["pgwbandedtorches:banded_soul_torch_white", "pgwbandedtorches:banded_soul_torch_orange", "pgwbandedtorches:banded_soul_torch_magenta", "pgwbandedtorches:banded_soul_torch_light_blue", "pgwbandedtorches:banded_soul_torch_yellow", "pgwbandedtorches:banded_soul_torch_lime", "pgwbandedtorches:banded_soul_torch_pink", "pgwbandedtorches:banded_soul_torch_gray", "pgwbandedtorches:banded_soul_torch_light_gray", "pgwbandedtorches:banded_soul_torch_cyan", "pgwbandedtorches:banded_soul_torch_purple", "pgwbandedtorches:banded_soul_torch_blue", "pgwbandedtorches:banded_soul_torch_brown", "pgwbandedtorches:banded_soul_torch_green", "pgwbandedtorches:banded_soul_torch_red", "pgwbandedtorches:banded_soul_torch_black"]
+#Whether torches should break upon use.
+"consume torch" = false
+#Whether to break the torch upon use even if no fire was set.
+#Effective only if [fire chance] and [consume torch] are set different from default.
+"consume without fire" = false
+#Chance (in percentage) for torches to set targets on fire.
+#Range: 1 ~ 100
+"fire chance" = 100
+

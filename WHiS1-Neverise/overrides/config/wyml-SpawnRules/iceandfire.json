@@ -1,0 +1,204 @@
+{
+	"mod": "iceandfire",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"stymphalian_bird": {
+						// Do not edit this name
+						"name": "stymphalian_bird",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"lightning_dragon": {
+						// Do not edit this name
+						"name": "lightning_dragon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"siren": {
+						// Do not edit this name
+						"name": "siren",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_ghoul": {
+						// Do not edit this name
+						"name": "dread_ghoul",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_scuttler": {
+						// Do not edit this name
+						"name": "dread_scuttler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_lich": {
+						// Do not edit this name
+						"name": "dread_lich",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_horse": {
+						// Do not edit this name
+						"name": "dread_horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"myrmex_royal": {
+						// Do not edit this name
+						"name": "myrmex_royal",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"hydra": {
+						// Do not edit this name
+						"name": "hydra",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ghost": {
+						// Do not edit this name
+						"name": "ghost",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cyclops": {
+						// Do not edit this name
+						"name": "cyclops",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"sea_serpent": {
+						// Do not edit this name
+						"name": "sea_serpent",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"pixie": {
+						// Do not edit this name
+						"name": "pixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cockatrice": {
+						// Do not edit this name
+						"name": "cockatrice",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_beast": {
+						// Do not edit this name
+						"name": "dread_beast",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_thrall": {
+						// Do not edit this name
+						"name": "dread_thrall",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"hippocampus": {
+						// Do not edit this name
+						"name": "hippocampus",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"myrmex_queen": {
+						// Do not edit this name
+						"name": "myrmex_queen",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"myrmex_sentinel": {
+						// Do not edit this name
+						"name": "myrmex_sentinel",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"hippogryph": {
+						// Do not edit this name
+						"name": "hippogryph",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"gorgon": {
+						// Do not edit this name
+						"name": "gorgon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"fire_dragon": {
+						// Do not edit this name
+						"name": "fire_dragon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dread_knight": {
+						// Do not edit this name
+						"name": "dread_knight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"myrmex_soldier": {
+						// Do not edit this name
+						"name": "myrmex_soldier",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ice_dragon": {
+						// Do not edit this name
+						"name": "ice_dragon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"deathworm": {
+						// Do not edit this name
+						"name": "deathworm",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"stone_statue": {
+						// Do not edit this name
+						"name": "stone_statue",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"amphithere": {
+						// Do not edit this name
+						"name": "amphithere",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"myrmex_worker": {
+						// Do not edit this name
+						"name": "myrmex_worker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"myrmex_swarmer": {
+						// Do not edit this name
+						"name": "myrmex_swarmer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"troll": {
+						// Do not edit this name
+						"name": "troll",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

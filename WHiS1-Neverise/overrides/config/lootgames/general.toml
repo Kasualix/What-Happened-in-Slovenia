@@ -1,0 +1,19 @@
+
+#General Settings
+[general]
+	#If this is set to true, then puzzle master won't start any new game.
+	#Default: false
+	disable_minigames = false
+
+	#Regulates dungeon appearing in world.
+	[general.worldgen]
+		#If this is equal true, then dungeon generation will be disabled.
+		#Default: false
+		disable_dungeon_gen = true
+		#Defines the maximum length of the entry path from ground to the structure.
+		#0 means, that there will be no path at all.
+		#2147483647 means, that there will be no limits for path length. Beware of setting to this value, because the paths may be too long, so it may produce lags.
+		#Range: > 0
+		#Default: 40
+		max_entry_path_length = 40
+

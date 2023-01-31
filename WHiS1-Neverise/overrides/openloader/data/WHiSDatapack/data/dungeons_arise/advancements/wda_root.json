@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.wda.wda_root.title",
+            "color": "gold",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "translate": "advancements.wda.wda_root.description",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "dungeons_arise:textures/wda_background.png"
+    },
+    "criteria": {
+        "WDA": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "WDA"
+        ]
+    ]
+}

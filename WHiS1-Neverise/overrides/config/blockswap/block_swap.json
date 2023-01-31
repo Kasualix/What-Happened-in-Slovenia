@@ -1,0 +1,15 @@
+{
+  "retroGen": true,
+  "swapper": {
+    "minecraft:player_head": "minecraft:air",
+    "aoa3:carved_rune_of_direction": "minecraft:air",
+    "aoa3:carved_rune_of_power": "minecraft:air",
+    "aoa3:carved_rune_of_reality": "minecraft:air",
+    "aoa3:carved_rune_of_space": "minecraft:air",
+    "aoa3:carved_rune_of_travel": "minecraft:air",
+    "endrem:end_crystal_ore": "minecraft:blackstone",
+    "aoa3:nowhere_activity_portal": "minecraft:air",
+    "betterendforge:ender_ore": "minecraft:end_stone",
+    "betterendforge:rubinea": "minecraft:air"
+  }
+}

@@ -1,0 +1,13 @@
+#Enable falling ash - Default: true
+ENABLE_ASH_FALL = false
+
+[World]
+	#Enable Ashy Shoals biome - Default: true
+	ENABLE_ASHY_SHOALS = true
+	#Enable Blackstone Shales biome - Default: true
+	ENABLE_BLACKSTONE_SHALES = true
+	#Enable Luminous Grove biome - Default: true
+	ENABLE_LUMINOUS_GROVE = true
+	#Enable Quartz Canyon biome - Default: true
+	ENABLE_QUARTZ_CANYON = true
+

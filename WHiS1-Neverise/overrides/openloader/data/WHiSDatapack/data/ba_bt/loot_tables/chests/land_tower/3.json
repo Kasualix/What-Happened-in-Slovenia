@@ -1,0 +1,154 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "wstweaks:fragment"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 5,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potato"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cake"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:baked_potato"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sweet_berries"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:melon_slice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:beetroot"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 5,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:apple_juice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:apple_pie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:baby_carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:bacon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:bat_wings"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:cooked_parrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:cooked_rabbit_foot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:cooked_cactus_slice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:chorus_fruit_juice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmeals:cooked_tropical_fish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:potato_soup"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:potato_cookie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:pizza"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:ink_soup"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:magma_jelly"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:meatloaf"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:melon_juice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:melon_soda"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "vanillacookbook:potato_chips"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 5,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "farmersdelight:sweet_berry_cookie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "farmersdelight:honey_cookie"
+                }
+            ]
+        }
+    ]
+}

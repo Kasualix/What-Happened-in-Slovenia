@@ -1,0 +1,145 @@
+# Enable debug mode to print out all the information about Mobs being added to Biomes
+isDebugModeEnabled = false
+
+# You can prevent Entities from spawning in these settings, keep in mind if you disable
+# an Entity, it will not spawn regardless of its Advanced Entity Spawn Settings
+["Toggle Entity Spawning Settings"]
+	# Toggle Arachnon Spawning
+	arachnonSpawning = true
+	# Toggle Hellhound Spawning
+	hellhoundSpawning = true
+	# Toggle Crab Spawning
+	crabSpawning = true
+	# Toggle Seahorse Spawning
+	seahorseSpawning = false
+	# Toggle Acidic Archvine Spawning
+	acidicArchvineSpawning = true
+	# Toggle Bufflon Spawning
+	bufflonSpawning = true
+
+# Tutorial on how to use the Advanced Entity Spawn Settings:
+# Lets start by explaining what each value does, and how to properly use it.
+#
+# entitySpawnBiomes - This is a list that allows adding Biomes to Mobs one by one, and to have different spawn values for each
+# entry. This option is ideal to add Mobs to a small amount of Biomes or to fine tune the spawn values, as it has priority over the
+# dictionary system (more on that later). The way you add a Biome to a Mob is by first writing the Biome id, for example:
+# "minecraft:plains" or "minecraft:flower_forest" or "epicmod:cool_biome". Afterwards you have to write 3 values that are separated
+# with a " / ", these values represent "Weight", "MinSpawns" and "MaxSpawns". Here are a few examples:
+# "minecraft:warped_forest/30/2/5" or "minecraft:birch_forest/14/1/3" or "epic_mod:cool_biome/40/2/7"
+# The way you add multiple Biomes is to separate them with a " , " here is an example:
+# entitySpawnBiomes = "minecraft:warped_forest/30/2/5,minecraft:flower_forest/50/2/8,epic_mod:cool_biome/40/2/7"
+#
+# Weight - This value is used to determine how likely it is for the entity to be picked in the spawn process, note that having a big
+# value doesn't mean more will spawn, it just increases the chance for it to spawn. Also try to avoid using really big values as it could
+# affect the spawn rates of other Mobs.
+#
+# MinSpawns - This value is used to determine, how many Mobs will be attempted to be spawned in a cluster. An example of this
+# would be a cluster of horses in a plains Biome. Note that this affects the attempts, meaning even if the value is set to 8, it may still
+# only spawn 3 if the terrain does not allow for 8 to be spawned.
+#
+# MaxSpawns - This is the counter part to MinSpawns, it is used to create a random range of spawn attempts between MinSpawns
+# and MaxSpawns. Note you may enter the same value into MinSpawns and MaxSpawns but DO NOT enter a smaller value into
+# MaxSpawns
+#
+# entityDictionaryTags - This is a list of BiomeDictionaryTags that allows adding a Mob to a huge amount of Biomes easily. Keep in
+# mind that Biomes added by other mods, need to support BiomeDictionary for them to be detected/In the list. The way this is used is
+# to write the Tags and to separate them with a " , " here is an example: entityDictionaryTags = "FOREST,PLAINS"
+# This would add the entity to all Biomes marked as a FOREST or as a PLAINS Biome, using the spawn values found in the
+# Dictionary section of the Mobs spawn config. The 3 values are the same as the ones described above, the only difference being
+# that you can not have different spawn values between the Biomes the Mob gets added to through the DictionarySystem. If you
+# would prefer different values for a certain Biome, simply add it to the "entitySpawnBiomes" list with the values you want it to have.
+# The "entitySpawnBiomes" list has priority over the Dictionary system, meaning the values in it, will get picked instead of the ones
+# from the Dictionary system. Here is a list of all the Tags you can use:
+# HOT, COLD, SPARSE, DENSE, WET, DRY, SAVANNA, CONIFEROUS, JUNGLE, SPOOKY, DEAD, LUSH, MUSHROOM, MAGICAL,
+# RARE, PLATEAU, MODIFIED, OCEAN, RIVER, WATER, MESA, FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, SANDY, SNOWY,
+# WASTELAND, BEACH, VOID, OVERWORLD, NETHER, END
+#
+# entityDictionaryBiomeBlacklist - This is a list of Biomes used to remove said Biomes from the list of Biomes added by the Dictionary
+# system. The way this would be used is to simply write the Biome names and to separate them with a " , " here is an example:
+# entityDictionaryBiomeBlacklist  = "minecraft:river,minecraft:plains,epic_mod:cool_biome"
+# You can use this list to remove the entity from certain Biomes it may have been added to by the Dictionary system, for an example
+# if you have added the Mob to all End Biomes but you don't want it  to spawn in the center, you could just exclude that Biome
+# through using this list. Note that this will only affect the Dictionary system, it will not remove Biomes from the "entitySpawnBiomes"
+#
+# If you have any questions, feel free to ask for help on my Discord server
+#
+[Advanced]
+
+	[Advanced.Arachnon]
+		arachnonSpawnBiomes = "minecraft:plains/20/1/1,minecraft:mountains/20/1/1,minecraft:gravelly_mountains/20/1/1"
+		arachnonDictionaryBiomeBlacklist = ""
+		arachnonDictionaryTags = ""
+
+		[Advanced.Arachnon.Dictionary]
+			#Range: 1 ~ 1000
+			arachnonDictionaryWeight = 20
+			#Range: 1 ~ 100
+			arachnonDictionaryMinSpawns = 1
+			#Range: 1 ~ 100
+			arachnonDictionaryMaxSpawns = 1
+
+	[Advanced.Hellhound]
+		hellhoundSpawnBiomes = "minecraft:nether_wastes/30/3/6,minecraft:soul_sand_valley/30/3/6"
+		hellhoundDictionaryBiomeBlacklist = ""
+		hellhoundDictionaryTags = ""
+
+		[Advanced.Hellhound.Dictionary]
+			#Range: 1 ~ 1000
+			hellhoundDictionaryWeight = 30
+			#Range: 1 ~ 100
+			hellhoundDictionaryMinSpawns = 3
+			#Range: 1 ~ 100
+			hellhoundDictionaryMaxSpawns = 6
+
+	[Advanced.Crab]
+		crabSpawnBiomes = "minecraft:beach/400/2/5,minecraft:warm_ocean/400/2/5"
+		crabDictionaryBiomeBlacklist = ""
+		crabDictionaryTags = ""
+
+		[Advanced.Crab.Dictionary]
+			#Range: 1 ~ 1000
+			crabDictionaryWeight = 400
+			#Range: 1 ~ 100
+			crabDictionaryMinSpawns = 2
+			#Range: 1 ~ 100
+			crabDictionaryMaxSpawns = 5
+
+	[Advanced.Seahorse]
+		seahorseSpawnBiomes = "minecraft:warm_ocean/25/3/6,minecraft:deep_warm_ocean/25/3/6,minecraft:ocean/10/2/3,minecraft:lukewarm_ocean/10/2/3,minecraft:deep_ocean/10/2/3,minecraft:deep_lukewarm_ocean/10/2/3"
+		seahorseDictionaryBiomeBlacklist = ""
+		seahorseDictionaryTags = ""
+
+		[Advanced.Seahorse.Dictionary]
+			#Range: 1 ~ 1000
+			seahorseDictionaryWeight = 10
+			#Range: 1 ~ 100
+			seahorseDictionaryMinSpawns = 2
+			#Range: 1 ~ 100
+			seahorseDictionaryMaxSpawns = 3
+
+	[Advanced."Acidic Archvine"]
+		acidicArchvineSpawnBiomes = "minecraft:nether_wastes/30/1/1,minecraft:crimson_forest/10/1/1,minecraft:jungle/110/1/1,minecraft:jungle_edge/110/1/1,minecraft:jungle_hills/110/1/1,minecraft:modified_jungle/110/1/1,minecraft:modified_jungle_edge/110/1/1"
+		acidicArchvineDictionaryBiomeBlacklist = ""
+		acidicArchvineDictionaryTags = ""
+
+		[Advanced."Acidic Archvine".Dictionary]
+			#Range: 1 ~ 1000
+			acidicArchvineDictionaryWeight = 10
+			#Range: 1 ~ 100
+			acidicArchvineDictionaryMinSpawns = 1
+			#Range: 1 ~ 100
+			acidicArchvineDictionaryMaxSpawns = 1
+
+	[Advanced.Bufflon]
+		bufflonSpawnBiomes = "minecraft:snowy_tundra/3/1/1,minecraft:frozen_river/3/1/1,minecraft:snowy_mountains/3/1/1"
+		bufflonDictionaryBiomeBlacklist = ""
+		bufflonDictionaryTags = ""
+
+		[Advanced.Bufflon.Dictionary]
+			#Range: 1 ~ 1000
+			bufflonDictionaryWeight = 3
+			#Range: 1 ~ 100
+			bufflonDictionaryMinSpawns = 1
+			#Range: 1 ~ 100
+			bufflonDictionaryMaxSpawns = 1
+

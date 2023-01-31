@@ -1,0 +1,9 @@
+
+#Client only settings
+[client]
+	#Whether GravelMiner is currently enabled for this client (toggled via keybind)
+	isEnabled = true
+	#The delay in client ticks before the torch should be placed after breaking a block below gravel. Increase if torch is placed too early, decrease if torch is placed too late. (for use on clients)
+	#Range: 2 ~ 20
+	torchDelay = 8
+

@@ -1,0 +1,12 @@
+{
+    "generator": {
+        "type": "minecraft:noise",
+        "seed": 0,
+        "biome_source": {
+            "seed": 0,
+            "type": "minecraft:vanilla_layered"
+        },
+        "settings": "minecraft:overworld"
+    },
+    "type": "whis:witherstorm"
+}

@@ -1,0 +1,21 @@
+{
+  "combatroll.mod_name": "战斗翻滚",
+  "keybinds.combatroll.roll": "翻滚",
+  "gui.combatroll.config_menu": "战斗翻滚配置",
+  "gui.combatroll.close": "关闭",
+  "gui.combatroll.settings": "设置",
+  "gui.combatroll.hud": "移动箭头",
+  "gui.combatroll.corner": "角度",
+  "gui.combatroll.reset": "重置",
+  "enchantment.combatroll.longfooted": "弄臣巧技",
+  "enchantment.combatroll.longfooted.desc": "增加翻滚的距离",
+  "enchantment.combatroll.acrobat_chest": "弄臣华裳",
+  "enchantment.combatroll.acrobat_chest.desc": "减少翻滚的冷却时间",
+  "enchantment.combatroll.acrobat_legs": "弄臣裙裤",
+  "enchantment.combatroll.acrobat_legs.desc": "减少翻滚的冷却时间",
+  "enchantment.combatroll.multi_roll": "弄臣舞步",
+  "enchantment.combatroll.multi_roll.desc": "获得额外的翻滚层数",
+  "attribute.name.combat_roll.distance": "翻滚距离",
+  "attribute.name.combat_roll.count": "额外翻滚",
+  "attribute.name.combat_roll.recharge": "翻滚充能"
+}

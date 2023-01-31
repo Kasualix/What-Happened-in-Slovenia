@@ -1,0 +1,14 @@
+{
+    "tooltip.itemstages.hidden_name":"§kماركتوب",
+    "tooltip.itemstages.item.description":"这件物品已经被阶段[%s]给限住",
+    "message.itemstages.drop":"你丢下了%s。",
+    "message.itemstages.mine":"你不知道如何使用%s挖掘。",
+    "message.itemstages.attack":"你不知道如何用%s攻击。",
+    "message.itemstages.use":"你不知道如何使用%s。",
+    "message.itemstages.pickup":"你无法捡起%s。",
+    "tooltip.itemstages.debug.drop":"- 这件物品会掉出物品栏。",
+    "tooltip.itemstages.debug.pickup":"- 这件物品无法被捡起。",
+    "tooltip.itemstages.debug.use":"- 这件物品不能应用于方块或实体。",
+    "tooltip.itemstages.debug.attack":"- 这件物品不能用作武器。",
+    "tooltip.itemstages.debug.jei":"- 这件物品将在JEI中隐藏。"
+}

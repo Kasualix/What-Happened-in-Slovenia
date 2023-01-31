@@ -1,0 +1,24 @@
+#
+# Average distance between spawn attempts for Repurposed Structures Pyramids.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+badlandsPyramidMaxChunkDistance = 80
+#Range: 1 ~ 1001
+pyramidSnowyMaxChunkDistance = 80
+#Range: 1 ~ 1001
+pyramidIcyMaxChunkDistance = 74
+#Range: 1 ~ 1001
+pyramidJungleMaxChunkDistance = 88
+#Range: 1 ~ 1001
+pyramidMushroomMaxChunkDistance = 48
+#Range: 1 ~ 1001
+pyramidOceanMaxChunkDistance = 80
+#Range: 1 ~ 1001
+pyramidGiantTreeTaigaMaxChunkDistance = 80
+#Range: 1 ~ 1001
+pyramidFlowerForestMaxChunkDistance = 72
+#Range: 1 ~ 1001
+netherPyramidMaxChunkDistance = 74
+#Range: 1 ~ 1001
+pyramidEndMaxChunkDistance = 136
+

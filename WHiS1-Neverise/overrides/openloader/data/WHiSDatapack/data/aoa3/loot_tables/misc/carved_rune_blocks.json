@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "name": "carved_rune_blocks",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 150
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          }
+        ]
+      }
+    ]
+  }

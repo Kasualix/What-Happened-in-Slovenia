@@ -1,0 +1,19 @@
+{
+	"mod": "eyesinthedarkness",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"eitd_eyes": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"eyes": {
+						// Do not edit this name
+						"name": "eyes",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

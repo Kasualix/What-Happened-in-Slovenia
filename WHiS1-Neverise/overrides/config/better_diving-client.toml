@@ -1,0 +1,38 @@
+#0: top-left, 1: top-middle, 2: top-right, 3: bottom-right, 4: bottom-middle, 5: bottom-left
+#Range: 0 ~ 5
+oxygenGuiAnchor = 4
+#No comment
+oxygenGuiEnabled = true
+#No comment
+#Range: -1000 ~ 1000
+oxygenGuiOffsetX = 66
+#No comment
+#Range: -1000 ~ 1000
+oxygenGuiOffsetY = -60
+#If enabled the oxygen gui will always be rendered.
+oxygenGuiRenderAlways = false
+#If enabled the oxygen gui will be rendered when current oxygen is less than the oxygen capacity.
+oxygenGuiRenderNotFull = true
+#If enabled the oxygen gui will be rendered when underwater.
+oxygenGuiRenderUnderwater = true
+#0: top-left, 1: top-middle, 2: top-right, 3: bottom-right, 4: bottom-middle, 5: bottom-left
+#Range: 0 ~ 5
+seamothGuiAnchor = 3
+#No comment
+seamothGuiEnabled = true
+#No comment
+#Range: -1000 ~ 1000
+seamothGuiOffsetX = -4
+#No comment
+#Range: -1000 ~ 1000
+seamothGuiOffsetY = -8
+#When enabled a custom sea level can be set using the 'seaLevel' option.
+seaLevelOverride = false
+#No comment
+#Range: -1024 ~ 1024
+seaLevel = 64
+#When enabled and the player is underwater and below the sea level then the sky rendering will be skipped.
+skipSkyRenderingInWater = false
+#When enabled and the player is below the sea level then the sky rendering will be skipped.
+skipSkyRenderingBelowSealevel = false
+

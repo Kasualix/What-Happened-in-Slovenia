@@ -1,0 +1,13 @@
+
+[Speeds]
+	#Speed factor of ladder ascending. Default: 4.0D
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ASCEND_FACTOR = 4.0
+	#Speed factor of ladder descending. Default: 4.0D
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DESCEND_FACTOR = 4.0
+
+[Behaviours]
+	#True = Lookup and go forward to ascend. False = Lookup and no need to go forward to ascend. Default: True
+	FORWARD_TO_ASCEND = true
+

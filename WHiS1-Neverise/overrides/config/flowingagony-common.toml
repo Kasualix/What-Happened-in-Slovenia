@@ -1,0 +1,79 @@
+
+[general]
+	#If it's set to "true", "Lightburn Fungal Parasitic" cannot spread negative effect to villager,
+	#and "Survival Shortcut", "Necessary Evil", "Pilferage Creed" cannot damage villager.
+	VILLAGER_SAFE_MODE = false
+	#The attack damage reduction ratio of "Shock Therapy". Default value is 0.9, which means the attack damage will be decreased by 90%.
+	#Range: 0.0 ~ 1.0
+	SHOCK_THERAPY_DAMAGE_REDUCTION = 0.8
+	#The attack damage reduction ratio of "Insane Poet". Default value is 0.9, which means the attack damage will be decreased by 90%.
+	#Range: 0.0 ~ 1.0
+	INSANE_POET_DAMAGE_REDUCTION = 0.8
+	#The attack damage reduction ratio of "Paper Brain". Default value is 0.9, which means the attack damage will be decreased by 90%.
+	#Range: 0.0 ~ 1.0
+	PAPER_BRAIN_DAMAGE_REDUCTION = 0.8
+
+#Enchantment Acquirable Setting
+#If you set certain item to "false", the relevant enchantment will become not acquirable to survival mode player.
+#Enchantment which is acquirable is still functional.
+[acquirable]
+	COME_BACK_AT_DUSK = true
+	NIMBLE_FINGER = true
+	TOO_RESENTFUL_TO_DIE = true
+	NECESSARY_EVIL = true
+	MALICE_OUTBREAK = true
+	VENGEANCE = true
+	ENCIOUS_KIND = false
+	DESTRUCTION_WORSHIP = true
+	PILFERAGE_CREED = true
+	STUBBORN_STEP = true
+	PAPER_BRAIN = false
+	I_SEE_YOU_NOW = true
+	REGULAR_CUSTOMER_PROGRAM = true
+	SURVIVAL_RUSE = true
+	AN_ENCHANTED_GOLDEN_APPLE_A_DAY = true
+	LAST_SWEET_DREAM = true
+	PROTOTYPE_CHAOTIC = false
+	SAVOR_THE_TASTED = true
+	FRIVOLOUS_STEP = true
+	PIERCING_FEVER = true
+	MIRACULOUS_ESCAPE = true
+	GUIDENS_REGRET = true
+	SHOCK_THERAPY = false
+	CORRUPTED_KINDRED = true
+	EXOTIC_HEALER = false
+	INFECTIOUS_MALICE = true
+	BACK_AND_FILL = true
+	EYESORE = true
+	MORIRS_DEATHWISH = true
+	DROWNING_PHOBIA = true
+	ORIGINAL_SIN_EROSION = true
+	THORN_IN_FLESH = true
+	CAREFULLY_IDENTIFIED = true
+	FRESH_REVENGE = true
+	CONSTRAINED_HEART = true
+	TRICKSTER = true
+	SOURCE_OF_ENVY = true
+	DIRTY_MONEY = true
+	INSANE_POET = true
+	PROTOTYPE_CHAOTIC_TYPE_BETA = false
+	BURNING_PHOBIA = true
+	COVERT_KNIFE = true
+	RESENTFUL_SOUL = true
+	CLEANSING_BEFORE_USING = true
+	DEATH_PUNK = true
+	POTENTIAL_BURST = true
+	PERCEIVED_MALICE = true
+	SCHOLAR_OF_ORIGINAL_SIN = true
+	ARMOR_UP = true
+	PRAYER_OF_PAIN = true
+	OUTRAGEOUS_SPIRIT = true
+	HATRED_BLOODLINE = true
+	SURVIVAL_SHORTCUT = true
+	SHADOWBORN = true
+	MORIRS_LIFEBOUND = true
+	AGONY_SCREAMER = true
+	LIGHTBURN_FUNGAL_PARASITIC = true
+	BURIAL_OBJECT = true
+	CUTTING_WATERMELON_DREAM = true
+

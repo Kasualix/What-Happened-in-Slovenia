@@ -1,0 +1,5 @@
+#Whether to Render the name of the Bonfire above the Bonfire, default:true
+"Render Text Above Bonfire" = true
+#Set the icons to display for the dimension tabs in the Bonfire GUI, mod:dimensionname=mod:itemname
+"Bonfire Dimension Tab Icons" = ["minecraft:overworld=minecraft:grass_block", "minecraft:the_nether=minecraft:netherrack", "minecraft:the_end=minecraft:end_stone", "kingdomkeys:dive_to_the_heart=kingdomkeys:mosaic_stained_glass"]
+

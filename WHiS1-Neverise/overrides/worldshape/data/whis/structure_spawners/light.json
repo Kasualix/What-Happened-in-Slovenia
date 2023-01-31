@@ -1,0 +1,29 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "whis:light", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 40,
+        "maxY": 240,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 30,  
+    "minimumSpacing": 27,          
+    "seed": 999,
+    "avoidOthers": true,       
+    
+    "dimensions": [
+        "aoa3:celeve"
+    ]
+}

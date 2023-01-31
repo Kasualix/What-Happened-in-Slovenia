@@ -1,0 +1,322 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:half_hearted\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:hearty\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:hard\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:guarding\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:armored\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:armored\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:warding\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:jagged\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:spiked\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:angry\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:menacing\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:brisk\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:fleeting\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:hasty\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:quick\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:wild\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:rash\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:intrepid\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:violent\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:legendary\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:deadly\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:vicious\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:sharp\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:broken\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:agile\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:damaged\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:swift\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:sluggish\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:slow\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:light\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{bookModifier: \"modifiers:heavy\"}"
+                        }
+                    ],
+                    "name": "modifiers:modifier_book"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,267 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "wstweaks:fragment"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 5,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 1,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 5,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 10,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 20,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 25,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 1,
+                    "name": "minecraft:book"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:gold_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:firebrand"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:highland_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:double_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:cursed_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:whirlwind"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:tempest_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:resolute_tempest_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:chill_gale_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:rapier"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:bee_stinger"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:freezing_foil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:cutlass"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:dancers_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:nameless_blade"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:stone_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:gold_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:diamond_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:hawkbrand"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:sinister_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:katana"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:dark_katana"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:masters_katana"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:soul_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:eternal_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:truthseeker"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:claymore"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:broadsword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:heartstealer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:frost_slayer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:fortune_spear"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:glaive"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:grave_bane"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:venom_glaive"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "ba_bt:monolith_key_land"
+                }
+            ]
+        }
+    ]
+}

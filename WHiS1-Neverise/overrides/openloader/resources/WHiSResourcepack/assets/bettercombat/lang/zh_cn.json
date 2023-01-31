@@ -1,0 +1,8 @@
+{
+    "attribute.name.generic.attack_range": "攻击范围",
+    "item.modifiers.two_handed": "双持",
+    "keybinds.bettercombat.feint": "卖个破绽",
+    "keybinds.bettercombat.toggle_mine_with_weapons": "切换使用武器进行采掘的能力",
+    "hud.bettercombat.mine_with_weapons_on": "使用武器进行采掘：是",
+    "hud.bettercombat.mine_with_weapons_off": "使用武器进行采掘：否"
+}

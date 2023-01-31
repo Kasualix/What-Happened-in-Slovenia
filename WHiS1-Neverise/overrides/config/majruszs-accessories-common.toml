@@ -1,0 +1,111 @@
+
+[Accessories]
+
+	#Functionality of Fisherman Emblem.
+	[Accessories.FishermanEmblem]
+		#Is the effectiveness mechanic enabled?
+		effectiveness = true
+		#Minimum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		minimum_effectiveness = -0.6
+		#Maximum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		maximum_effectiveness = 0.6
+		#Luck bonus when fishing.
+		#Range: 1 ~ 100
+		luck = 3
+		#Chance for Fisherman Emblem to drop from fishing.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 0.00375
+
+	#Functionality of Lucky Rock.
+	[Accessories.LuckyRock]
+		#Is the effectiveness mechanic enabled?
+		effectiveness = true
+		#Minimum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		minimum_effectiveness = -0.6
+		#Maximum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		maximum_effectiveness = 0.6
+		#Chance for Lucky Rock to drop from mining.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0E-4
+		#Chance for extra loot when mining.
+		#Range: 0.0 ~ 1.0
+		chance = 0.03
+
+	#Functionality of Giant Seed.
+	[Accessories.GiantSeed]
+		#Is the effectiveness mechanic enabled?
+		effectiveness = true
+		#Minimum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		minimum_effectiveness = -0.6
+		#Maximum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		maximum_effectiveness = 0.6
+		#Chance for Giant Seed to drop from harvesting.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 0.001
+		#Chance for double loot when harvesting crops.
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+
+	#Functionality of Idol Of Fertility.
+	[Accessories.IdolOfFertility]
+		#Is the effectiveness mechanic enabled?
+		effectiveness = true
+		#Minimum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		minimum_effectiveness = -0.6
+		#Maximum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		maximum_effectiveness = 0.6
+		#Chance for Idol of Fertility to drop from breeding.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 0.005
+		#Chance of having twins after breeding.
+		#Range: 0.0 ~ 1.0
+		extra_animal_chance = 0.25
+
+	#Functionality of Certificate Of Taming.
+	[Accessories.CertificateOfTaming]
+		#Is the effectiveness mechanic enabled?
+		effectiveness = true
+		#Minimum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		minimum_effectiveness = -0.6
+		#Maximum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		maximum_effectiveness = 0.6
+		#Chance for Certificate of Taming to drop from taming animals.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 0.01
+		#Health multiplier when the animal is tamed.
+		#Range: 0.0 ~ 10.0
+		health_multiplier = 0.15
+		#Damage multiplier when the animal is tamed.
+		#Range: 0.0 ~ 10.0
+		damage_multiplier = 0.15
+		#Jump height and speed multiplier when the horse is tamed.
+		#Range: 0.0 ~ 10.0
+		horse_bonuses_multiplier = 0.15
+
+	#Functionality of Secret Ingredient.
+	[Accessories.SecretIngredient]
+		#Is the effectiveness mechanic enabled?
+		effectiveness = true
+		#Minimum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		minimum_effectiveness = -0.6
+		#Maximum effectiveness bonus.
+		#Range: -1.0 ~ 10.0
+		maximum_effectiveness = 0.6
+		#Duration bonus for all created potions.
+		#Range: 0.0 ~ 5.0
+		duration_bonus = 0.1
+		#Amplifier bonus for all created potions.
+		#Range: 0 ~ 10
+		amplifier_bonus = 1
+

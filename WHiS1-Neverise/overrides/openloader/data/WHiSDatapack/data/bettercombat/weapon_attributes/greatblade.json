@@ -1,0 +1,31 @@
+{
+    "attributes": {
+        "attack_range": 3.6,
+        "pose": "pose_two_handed_heavy",
+        "two_handed": true,
+        "category": "greatblade",
+        "attacks": [
+            {
+                "hitbox": "FORWARD_BOX",
+                "damage_multiplier": 1.0,
+                "angle": 30,
+                "upswing": 0.5,
+                "animation": "bettercombat:two_handed_stab_left"
+            },
+            {
+                "hitbox": "FORWARD_BOX",
+                "damage_multiplier": 1.0,
+                "angle": 30,
+                "upswing": 0.5,
+                "animation": "bettercombat:two_handed_stab_right"
+            },
+            {
+                "hitbox": "FORWARD_BOX",
+                "damage_multiplier": 1.25,
+                "angle": 90,
+                "upswing": 0.5,
+                "animation": "bettercombat:two_handed_slam"
+            }
+        ]
+    }
+}

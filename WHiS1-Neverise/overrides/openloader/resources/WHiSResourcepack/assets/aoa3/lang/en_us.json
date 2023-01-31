@@ -1,0 +1,20 @@
+{
+    "item.aoa3.knight_armour.desc.2": "When below 50%% health, gain extra strength",
+    "item.aoa3.lunar_armour.desc.1": "Jump higher, reduces fall damage slightly",
+    "item.aoa3.lunar_armour.desc.2": "§6Full set bonus: §r§2Night Vision§r, §2Immune to fall damage§r§7(Although the realization is not so silky)",
+    "item.aoa3.alacrity_armour.desc.1": "+20%%Fall Damage Resistance",
+    "item.aoa3.alacrity_armour.desc.2": "Immune to fall damage, gain Jump Boost IV",
+    "item.aoa3.spaceking_armour.desc.1": "Immune to fall and suffocation damage(Although the realization is not so silky), §cFear of water!",
+    "item.aoa3.spaceking_armour.desc.2": "Destroy an ancient rock with empty hand Shift+left click. When necessary, Shift+Right click to drop the ancient rock to return to the original location where the ancient rock was destroyed. This teleportation cannot cross dimensions. After teleportation, your spirit and energy will be reset to zero.",
+    "item.aoa3.rosidian_armour.desc.1": "20%Poison Damage Resistance",
+    "item.aoa3.rosidian_armour.desc.2": "Immune to poisoning. When the total durability of the full set of armor is lower than 66%, the owner gains the Resistance I effect. When the durability is lower than 33%, the owner gains the effect of Resistance II.",
+    "item.aoa3.subterranean_armour.desc.1": "Get Haste V effect",
+    "item.aoa3.vinocorne_spawn_egg": "MopeMope Spawn Egg",
+    "block.aoa3.vinocorne_shrine": "MopeMope Shrine",
+    "gui.aoa3.skills.showtip": "",
+    "gui.aoa3.resources.showtip": "",
+    "gui.realmstoneMenu.hover.nowhere": "Where is Nowhere? It's nowhere.",
+    "entity.aoa3.vinocorne": "MopeMope",
+    "entity.aoa3.vinocorne.kill": "%1$s defeated MopeMope!",
+    "entity.aoa3.trickster_clone": "Trickster"
+}

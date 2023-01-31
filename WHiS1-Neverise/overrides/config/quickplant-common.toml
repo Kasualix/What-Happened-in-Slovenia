@@ -1,0 +1,9 @@
+#The time of the refresh interval. After each interval, the plant item will try to plant below.
+#Range: 20 ~ 6000
+refreshInterval = 100
+#The time before the item entity's expiration. The item entity whose age is larger than this will be cleared, just like what happens in vanilla.
+#Range: 20 ~ 36000
+expireTime = 6000
+#If true, a sound will be played on quick-planting.
+playSound = true
+

@@ -1,0 +1,67 @@
+{
+	"mod": "enderlinginvaders",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"lureling": {
+						// Do not edit this name
+						"name": "lureling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"necrosent": {
+						// Do not edit this name
+						"name": "necrosent",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"watchling": {
+						// Do not edit this name
+						"name": "watchling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"endersent": {
+						// Do not edit this name
+						"name": "endersent",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"stronghold_endersent": {
+						// Do not edit this name
+						"name": "stronghold_endersent",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"thumpling": {
+						// Do not edit this name
+						"name": "thumpling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"snareling": {
+						// Do not edit this name
+						"name": "snareling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"hypno_bulb": {
+						// Do not edit this name
+						"name": "hypno_bulb",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"blastling": {
+						// Do not edit this name
+						"name": "blastling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

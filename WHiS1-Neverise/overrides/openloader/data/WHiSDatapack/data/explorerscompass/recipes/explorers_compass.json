@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "group": "tools",
+    "pattern": [
+        "WSW",
+        "SCS",
+        "WSW"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:string"
+        },
+        "S": {
+            "item": "minecraft:stone_bricks"
+        },
+        "C": {
+            "item": "minecraft:compass"
+        }
+    },
+    "result": {
+        "item": "explorerscompass:explorerscompass"
+    }
+}

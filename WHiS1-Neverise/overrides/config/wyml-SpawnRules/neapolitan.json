@@ -1,0 +1,30 @@
+{
+	"mod": "neapolitan",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"chimpanzee": {
+						// Do not edit this name
+						"name": "chimpanzee",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"plantain_spider": {
+						// Do not edit this name
+						"name": "plantain_spider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"mod": "witherstormmod",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tentacle": {
+						// Do not edit this name
+						"name": "tentacle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"wither_storm_head": {
+						// Do not edit this name
+						"name": "wither_storm_head",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"wither_storm": {
+						// Do not edit this name
+						"name": "wither_storm",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"sickened_skeleton": {
+						// Do not edit this name
+						"name": "sickened_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"sickened_spider": {
+						// Do not edit this name
+						"name": "sickened_spider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"wither_storm_segment": {
+						// Do not edit this name
+						"name": "wither_storm_segment",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"sickened_creeper": {
+						// Do not edit this name
+						"name": "sickened_creeper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"withered_symbiont": {
+						// Do not edit this name
+						"name": "withered_symbiont",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"sickened_zombie": {
+						// Do not edit this name
+						"name": "sickened_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

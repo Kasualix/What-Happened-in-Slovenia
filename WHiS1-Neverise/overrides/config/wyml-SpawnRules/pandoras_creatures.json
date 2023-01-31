@@ -1,0 +1,65 @@
+{
+	"mod": "pandoras_creatures",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"crab": {
+						// Do not edit this name
+						"name": "crab",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"seahorse": {
+						// Do not edit this name
+						"name": "seahorse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"bufflon": {
+						// Do not edit this name
+						"name": "bufflon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"acidic_archvine": {
+						// Do not edit this name
+						"name": "acidic_archvine",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"end_troll": {
+						// Do not edit this name
+						"name": "end_troll",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"arachnon": {
+						// Do not edit this name
+						"name": "arachnon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"hellhound": {
+						// Do not edit this name
+						"name": "hellhound",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

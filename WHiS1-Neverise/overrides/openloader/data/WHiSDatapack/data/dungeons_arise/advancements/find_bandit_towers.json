@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.wda.find_bandit_towers.title",
+            "color": "red"
+        },
+        "description": {
+            "translate": "advancements.wda.find_bandit_towers.description"
+        },
+        "icon": {
+            "item": "minecraft:lantern"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location0": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "dungeons_arise:bandit_towers"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "location0"
+        ]
+    ],
+    "parent": "dungeons_arise:find_bandit_village"
+}

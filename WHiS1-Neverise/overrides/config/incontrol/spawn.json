@@ -1,0 +1,96 @@
+[
+    {
+        "mob": [
+            "ambient_pixon",
+            "blooming_pixon",
+            "glaring_pixon",
+            "gleaming_pixon",
+            "glistening_pixon",
+            "glowing_pixon",
+            "radiant_pixon",
+            "shining_pixon"
+        ],
+        "onjoin": true,
+        "healthmultiply": 2.0,
+        "result": "default"  
+    },
+    {
+        "mob": "minecraft:ender_dragon",
+        "customname": "§c§l§oTankofpacer, The Invincible Ender Dragon",
+        "onjoin": true,
+        "result": "default"
+    },
+    {
+        "mob": "outvoted:hunger",
+        "dimension": [
+            "aoa3:barathos"
+        ],
+        "damagemultiply": 1.5,
+        "healthmultiply": 2.0,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": [
+            "upgrade_aquatic:pike",
+            "upgrade_aquatic:perch",
+            "upgrade_aquatic:nautilus",
+            "upgrade_aquatic:lionfish",
+            "upgrade_aquatic:great_thrasher",
+            "outvoted:kraken"
+        ],
+        "onjoin": true,
+        "result": "allow",
+        "dimension": [
+            "aoa3:lborean"
+        ]
+    },
+    {
+        "mob": "eyesinthedarkness:eyes",
+        "mincount": {
+            "amount": 1,
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "witherstormmod:withered_symbiont",
+        "onjoin": true,
+        "result": "default",
+        "healthmultiply": 4.0
+    },
+    {
+        "mod": "aoa3",
+        "gamestage": "before_wither",
+        "result": "deny",
+        "onjoin": true
+    },
+    {
+        "mob": "minecraft:wither",
+        "onjoin": true,
+        "result": "default",
+        "healthmultiply": 2.0
+    },
+    {
+        "mob": "witherstormmod:wither_storm",
+        "speedmultiply": 0.5,
+        "healthmultiply": 100,
+        "onjoin": true,
+        "result": "default"
+    },
+    {
+        "structure" : "ba_bt:land_battle_tower",
+        "result": "default",
+        "onjoin": true,
+        "damagemultiply": 2.0,
+        "healthmultiply": 1.5,
+        "speedmultiply": 1.2
+    },
+    {
+        "mob": "pandoras_creatures:end_troll",
+        "healthmultiply": 0.2,
+        "onjoin": true,
+        "result": "default"
+    }
+]

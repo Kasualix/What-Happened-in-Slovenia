@@ -1,0 +1,41 @@
+
+#AoA server-side configuration options
+["General Settings"]
+	#Set this to false to disable enchantments that breach level caps
+	allowUnsafeInfusion = true
+	#Adjust this value to modify how far to look for safe/existing portal locations.
+	#The lower the value, the faster it runs
+	#Range: 1 ~ 128
+	portalSearchRadius = 24
+	#Set this to true to make Corrupted Travellers easier to find, causing them to glow through blocks when nearby.
+	easyCorruptedTravellers = false
+	#Set to false to stop non-player entities from using the AoA portal system.
+	allowNonPlayerPortalTravel = false
+	#Modifier for global xp gain for all players for AoA skills.
+	#Higher numbers means more xp gained
+	#Range: 0.0 ~ 1000.0
+	globalXpModifier = 1.0
+	#Set to false to stop AoA saving loot-drops from explosions.
+	saveLootFromExplosions = true
+	#Set to false to disable all AoA Skills for the server.
+	#This may give a slight performance improvement.
+	#NOTE: This will cause any player who logs in to lose any levels & xp they may have previously stored. Only turn this on if you intend for the server to run without skills.
+	disableSkills = false
+
+#AoA Leaderboard configuration options
+["Leaderboard Settings"]
+	#Set to false to disable the skills leaderboard entirely.
+	#NOTE: Disabling the leaderboard will prevent it from updating its data, and game data changes while the leaderboard is disabled will not be tracked if re-enabled.
+	skillsLeaderboardEnabled = true
+	#The amount of threads & connections to the skills database AoA will try to make. Less threads may produce a negligible memory usage improvement, and more threads may improve database performance on larger servers.
+	#You shouldn't need to change this unless you know what you're doing.
+	#Range: 1 ~ 100
+	maxLeaderboardThreads = 4
+	#Set this to false to disable in-memory databases for leaderboards. This can save on RAM usage, but may reduce performance of the leaderboard's functionality and increase disk usage.
+	dontCacheDatabase = false
+	#The username to use for leaderboard database connection. You shouldn't need to change this.
+	databaseUsername = "User"
+	#The password to use along with the databaseUsername for leaderboard database connection. You shouldn't need to change this.
+	#NOTE: If setting your own password, be aware this will be stored in easily accessible plaintext. Use a throwaway password.
+	databasePassword = "Password"
+

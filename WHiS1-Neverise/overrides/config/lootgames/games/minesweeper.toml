@@ -1,0 +1,64 @@
+
+#Regulates "Minesweeper" minigame.
+[minesweeper]
+	#The time until bombs start to explode. Represented in ticks.
+	#Range: 0 ~ 600
+	#Default: 60
+	detonation_time = 40
+	#It represents the number of attempts the player has to beat the game successfully.
+	#Range: > 1
+	#Default: 3
+	attempt_count = 3
+
+	#Regulates characteristics of stage 1.
+	[minesweeper.stage_1]
+		#The radius of Minesweeper board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: 2 ~ 9
+		#Default: 6
+		board_radius = 6
+		#The amount of bombs on the board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: > 1
+		#Default: 20
+		bomb_count = 20
+
+	#Regulates characteristics of stage 2.
+	[minesweeper.stage_2]
+		#The radius of Minesweeper board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: 2 ~ 9
+		#Default: 7
+		board_radius = 7
+		#The amount of bombs on the board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: > 1
+		#Default: 30
+		bomb_count = 30
+
+	#Regulates characteristics of stage 3.
+	[minesweeper.stage_3]
+		#The radius of Minesweeper board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: 2 ~ 9
+		#Default: 8
+		board_radius = 8
+		#The amount of bombs on the board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: > 1
+		#Default: 42
+		bomb_count = 42
+
+	#Regulates characteristics of stage 4.
+	[minesweeper.stage_4]
+		#The radius of Minesweeper board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: 2 ~ 9
+		#Default: 9
+		board_radius = 9
+		#The amount of bombs on the board.
+		#Won't be changed for already generated Minesweeper boards!
+		#Range: > 1
+		#Default: 68
+		bomb_count = 68
+

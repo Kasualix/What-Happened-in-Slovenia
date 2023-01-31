@@ -1,0 +1,6 @@
+
+#Common Settings for Pandoras Creatures, Entity Spawning has been moved to the new config file (entity-spawning.toml)
+[Common]
+	# This value does nothing, its just a placeholder
+	placeHolder = true
+

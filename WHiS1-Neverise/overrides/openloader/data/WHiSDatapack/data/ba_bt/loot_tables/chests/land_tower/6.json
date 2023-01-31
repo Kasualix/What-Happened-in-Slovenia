@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "wstweaks:fragment"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 6,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "witherstormmod:tainted_mushroom",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "witherstormmod:tainted_dust",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 1,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 3,
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 1,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 3,
+                    "name": "minecraft:book"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "witherstormmod:formidibomb"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "ba_bt:monolith_key_land"
+                }
+            ]
+        }
+    ]
+}

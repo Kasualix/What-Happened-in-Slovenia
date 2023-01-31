@@ -1,0 +1,16 @@
+{
+    "jek.controls.search.label": "搜索：",
+    "jek.controls.search.tooltip.title": "搜索",
+    "jek.controls.search.tooltip.description": "输入按键名已进行搜索。",
+    "jek.controls.search.tooltip.advanced.title": "高级搜索",
+    "jek.controls.search.tooltip.advanced.description": "以下标识符有助于进行高级搜索。",
+    "jek.controls.search.tooltip.advanced.filters.title": "过滤器",
+    "jek.controls.search.tooltip.advanced.filters.description": "未绑定（^u）, 冲突（^c）",
+    "jek.controls.search.tooltip.advanced.searchby.title": "搜索方式",
+    "jek.controls.search.tooltip.advanced.searchby.description": "键位（@k）, 类别（@c）",
+    "jek.controls.search.tooltip.advanced.example.prefix": "例：",
+    "jek.controls.search.tooltip.advanced.example.query": "^c @c jei ",
+    "jek.controls.search.tooltip.advanced.example.suffix": "会搜出 jei 类别中所有冲突键位。",
+    "jek.controls.search.help.label": "高级标识符：^c（冲突）, ^u（未绑定）, @k <键名>,  @c <类别/模组名>",
+    "key.justenoughkeys.dropstack": "[已删除]"
+}

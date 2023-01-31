@@ -1,0 +1,12 @@
+
+#General settings
+[General]
+	#Dictates if the overworld painting will teleport you back to your spawnpoint / bed (Similar to teleporting from the End to the Overworld)
+	overworldToBed = true
+	#Dictates the max Y at which the Nether Painting will place you in the Nether [51 = Spawn in a bubble at Y 50 if nothing] (Default: 120)
+	#Range: 10 ~ 120
+	netherMaxY = 120
+	#Amount of seconds between being able to teleport (Default: 4)
+	#Range: > 0
+	teleportCooldown = 60
+

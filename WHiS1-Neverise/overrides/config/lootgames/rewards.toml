@@ -1,0 +1,170 @@
+
+#Regulates game rewards
+[rewards]
+
+	#Minesweeper Rewards
+	[rewards.minesweeper]
+
+		#Rewards for stage 1
+		[rewards.minesweeper.stage_1]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: 15
+			min_items = 15
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: 15
+			max_items = 15
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/simple_dungeon
+			loot_table = "minecraft:chests/simple_dungeon"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+		#Rewards for stage 2
+		[rewards.minesweeper.stage_2]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			min_items = -1
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			max_items = -1
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/desert_pyramid
+			loot_table = "minecraft:chests/desert_pyramid"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+		#Rewards for stage 3
+		[rewards.minesweeper.stage_3]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			min_items = -1
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			max_items = -1
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/nether_bridge
+			loot_table = "minecraft:chests/nether_bridge"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+		#Rewards for stage 4
+		[rewards.minesweeper.stage_4]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			min_items = -1
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			max_items = -1
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/end_city_treasure
+			loot_table = "minecraft:chests/end_city_treasure"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+	#Game of Light Rewards
+	[rewards.game_of_light]
+
+		#Rewards for stage 1
+		[rewards.game_of_light.stage_1]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: 15
+			min_items = 15
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: 15
+			max_items = 15
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/simple_dungeon
+			loot_table = "minecraft:chests/simple_dungeon"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+		#Rewards for stage 2
+		[rewards.game_of_light.stage_2]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			min_items = -1
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			max_items = -1
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/desert_pyramid
+			loot_table = "minecraft:chests/desert_pyramid"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+		#Rewards for stage 3
+		[rewards.game_of_light.stage_3]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			min_items = -1
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			max_items = -1
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/nether_bridge
+			loot_table = "minecraft:chests/nether_bridge"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+
+		#Rewards for stage 4
+		[rewards.game_of_light.stage_4]
+			#Minimum amount of item stacks to be generated in chest. Won't be applied, if count of items in bound loot table are less than it. If min and max are set to -1, the limits will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			min_items = -1
+			#Maximum amount of item stacks to be generated in chest. If this is set to -1, max limit will be disabled.
+			#Range: -1 ~ 256
+			#Default: -1
+			max_items = -1
+			#Name of the loot table, items from which will be generated in the chest of this stage. This can be adjusted per dimension in "per_dim_configs".
+			#Default: minecraft:chests/end_city_treasure
+			loot_table = "minecraft:chests/end_city_treasure"
+			#Here you can add different loot tables to each dimension. If dimension isn't in this list, then game will take default loot table for this stage.
+			#Syntax: <dimension_key>; <loottable_name>
+			#<loottable_name> - The loottable name for the chest in this stage.
+			#General Example: [ "0; minecraft:chests/simple_dungeon" ]
+			#Default: []
+			per_dim_configs = []
+

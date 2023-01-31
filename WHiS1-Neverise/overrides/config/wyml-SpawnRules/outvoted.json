@@ -1,0 +1,36 @@
+{
+	"mod": "outvoted",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"hunger": {
+						// Do not edit this name
+						"name": "hunger",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"kraken": {
+						// Do not edit this name
+						"name": "kraken",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					},
+					"wildfire": {
+						// Do not edit this name
+						"name": "wildfire",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 30
+					}
+				}
+			}
+		}
+	}
+}

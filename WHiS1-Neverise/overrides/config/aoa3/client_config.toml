@@ -1,0 +1,39 @@
+
+#AoA client-side configuration options
+["General Settings"]
+	#Set this to false to disable the small scrolling popups that appear when you gain xp in a skill
+	showXpParticles = true
+	#Set this to false to disable the message that welcomes you to Advent of Ascension when logging in
+	showWelcomeMessage = true
+	#Set this to false to hide player halos for those that have them
+	showPlayerHalos = true
+	#If multiple halos are available, which one would you prefer to have on?
+	#Allowed Values: Donator, Super_Donator, Wiki_Editor
+	personalHaloPreference = "Donator"
+	#The current theme for the main Advent of Ascension window.
+	adventGuiTheme = "Default"
+	#Set this to false to disable third party and vanilla entities from showing in the bestiary
+	thirdPartyBestiary = true
+	#Choose a corner to have your resources indicators render in.
+	#Allowed Values: Top_Right, Top_Left, Bottom_Right, Bottom_Left
+	hudResourcesPosition = "Top_Right"
+	#Set this to false to switch to a vertical layout for the HUD resources
+	hudResourcesHorizontal = true
+	#Set this to true to stop the skills and resources HUD elements shifting down when players have potion effects.
+	disableHudPotionOffset = false
+	#Choose which type of progress indication you would prefer for skills in the HUD
+	#Allowed Values: Ring, Bar, Percent, None
+	hudSkillProgressRenderType = "Bar"
+	#Set this to false to use chat messages for mod feedback instead of toasts
+	useToasts = true
+	#Set this to false to disable rotation of entities on trophy blocks.
+	rotatingTrophies = true
+	#Select what type of rendering AoA replaces the vanila health bar with
+	#Allowed Values: HEARTS, BAR, NUMERIC, BAR_NUMERIC
+	healthRenderType = "BAR_NUMERIC"
+
+#Just for fun :)
+["Fun Options"]
+	#Set this to true to enable party deaths
+	partyDeaths = false
+

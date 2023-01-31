@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "CDC",
+        "EBE"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:emerald"
+        },
+        "B": {
+            "item": "minecraft:leather"
+        },
+        "C": {
+            "item": "minecraft:string"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "item": "aoa3:troll_idol"
+    }
+}

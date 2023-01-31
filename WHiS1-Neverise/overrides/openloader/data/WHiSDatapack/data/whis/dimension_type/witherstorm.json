@@ -1,0 +1,15 @@
+{
+  "name": "whis:witherstorm",
+  "ultrawarm": false,
+  "natural": false,
+  "coordinate_scale": 1,
+  "has_skylight": true,
+  "has_ceiling": false,
+  "ambient_light": 0.0,
+  "piglin_safe": true,
+  "bed_works": false,
+  "respawn_anchor_works": false,
+  "has_raids": true,
+  "logical_height": 256,
+  "infiniburn": "minecraft:infiniburn_overworld"
+}

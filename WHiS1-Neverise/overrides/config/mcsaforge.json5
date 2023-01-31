@@ -1,0 +1,234 @@
+{
+	"armorStats": {
+		"ADAMANTIUM": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 4.0,
+			"knockbackRes": 0.4000000059604645
+		},
+		"CHAMPION_PETRA": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.30000001192092896
+		},
+		"DRAGONSBANE": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.6000000238418579
+		},
+		"ELLEGAARD": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"ENDER_DEFENDER": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"ENDERMAN_SOREN": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"GABRIEL": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"GOLDEN_GOLIATH": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"GOLDEN_GOLIATH_CIRCUITRY": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"HARPERS_HEADSET": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"IVOR": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"LUKAS": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"MAGNUS": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"NINJA_IVOR_ARMOUR": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"OLIVIA": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"PETRA": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"PRISMARINE": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"REDSTONE_RIOT": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 4.0,
+			"knockbackRes": 0.30000001192092896
+		},
+		"SHIELD_OF_INFINITY": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 4.0,
+			"knockbackRes": 0.30000001192092896
+		},
+		"SOREN": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		},
+		"STAR_SHIELD": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 4.0,
+			"knockbackRes": 0.30000001192092896
+		},
+		"SWORDBREAKER": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.6000000238418579
+		},
+		"TIMS_ARMOUR": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.10000000149011612
+		}
+	}
+}

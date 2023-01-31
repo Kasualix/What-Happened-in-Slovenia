@@ -1,0 +1,26 @@
+
+#Integration options for JEI (Just Enough Items)
+["JEI Settings"]
+	#Set this to false to disable JEI integration functionality.
+	jei = true
+
+#Integration options for JER (Just Enough Resources)
+["JER Settings"]
+	#Set this to false to disable JER integration functionality.
+	jer = true
+
+#Integration options for Immersive Engineering
+["Immersive Engineering Settings"]
+	#Set this to false to disable Immersive Engineering integration functionality.
+	immersiveEngineering = false
+
+#Integration options for Patchouli
+["Patchouli Settings"]
+	#Set this to false to disable Patchouli integration functionality.
+	patchouli = true
+
+#Integration options for Tinker's Construct
+["Tinker's Construct Settings"]
+	#Set this to false to disable Tinker's Construct integration functionality.
+	tinkersConstruct = false
+

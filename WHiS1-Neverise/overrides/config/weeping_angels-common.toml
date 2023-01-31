@@ -1,0 +1,87 @@
+
+[world_gen]
+	#Config to toggle the generation of arms in snow biomes
+	arms = false
+	#Configure whether the mods ores spawn. This MAY require a restart when changed.
+	genOres = false
+	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
+	genGraveyard = false
+	#Configure whether Catacombs Structures spawn. This will require a restart when changed.
+	genCatacombs = false
+
+[spawn]
+	#The minimum amount of 'Weeping Angels' that spawn at each spawn attempt
+	#Range: 1 ~ 100
+	minCount = 1
+	#The maximum amount of 'Weeping Angels' that spawn at each spawn attempt
+	#Range: 1 ~ 100
+	maxCount = 1
+	#The weight of spawn in relation to other mods 'Weeping Angels' will spawn in. Less than 100 = Rarer
+	#Range: > 1
+	spawn_weight = 2
+	#'Weeping Angel' spawn classification
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, WATER_CREATURE, WATER_AMBIENT, MISC, EITD_EYES
+	spawnType = "MONSTER"
+	#Note: A list of biomes where angels should spawn.
+	spawnBiomes = ["minecraft:badlands", "minecraft:badlands_plateau", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:basalt_deltas", "minecraft:beach", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:crimson_forest", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:eroded_badlands", "minecraft:flower_forest", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:gravelly_mountains", "minecraft:ice_spikes", "minecraft:jungle", "minecraft:jungle_edge", "minecraft:jungle_hills", "minecraft:modified_badlands_plateau", "minecraft:modified_gravelly_mountains", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:modified_wooded_badlands_plateau", "minecraft:mountain_edge", "minecraft:mountains", "minecraft:mushroom_field_shore", "minecraft:mushroom_fields", "minecraft:nether_wastes", "minecraft:plains", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:small_end_islands", "minecraft:snowy_beach", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:snowy_tundra", "minecraft:soul_sand_valley", "minecraft:stone_shore", "minecraft:sunflower_plains", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:wooded_badlands_plateau", "minecraft:wooded_hills", "minecraft:wooded_mountains"]
+
+[angel]
+	#Damage Type For Angels
+	#Allowed Values: NOTHING, ANY_PICKAXE_AND_GENERATOR_ONLY, ANY_PICKAXE_ONLY, DIAMOND_AND_ABOVE_PICKAXE_ONLY, GENERATOR_ONLY, EVERYTHING
+	damageType = "ANY_PICKAXE_AND_GENERATOR_ONLY"
+	#Non-child angels play scraping sounds when moving, this toggles that
+	playScrapeSound = true
+	#Toggle seen sounds
+	playSeenSounds = true
+	#The damage dealt by an angel
+	#Range: 1.0 ~ 1.7976931348623157E308
+	damage = 10.0
+	#XP gained from angels
+	#Range: > 1
+	xpGained = 50
+	#If this is enabled, the timey wimey detector can blow up chickens when in use randomly
+	chickenGoboom = true
+	#If this is enabled, baby angels will blow out light items from the players hand
+	torchBlowOut = true
+	#if enabled, angels will freeze when they see one another. (Impacts performance a bit)
+	freezeOnAngel = true
+	#Determines the range the angels will look for players within, personally, I'd stay under 100
+	#Range: 1 ~ 100
+	stalkRange = 65
+	#Determines the angels move speed
+	#Range: 0.1 ~ 1.7976931348623157E308
+	angelMovementSpeed = 0.2
+	#If this is enabled, angels will break blocks (If gamerules allow) - !!!! BLOCK BLACKLISTING: You may be looking for a config option in order to stop certain blocks from being broken. You can do this with a datapack using weeping_angels:angel_proof
+	blockBreaking = false
+	#The maximum range a angel can break blocks within
+	#Range: 1 ~ 120
+	blockBreakRange = 15
+
+[teleport]
+	#Teleport Type - STRUCTURES: Teleports you to Structures Only - DONT: No Teleporting, only damage - RANDOM: Anywhere
+	#Allowed Values: STRUCTURES, RANDOM_PLACE, DONT
+	teleportType = "RANDOM_PLACE"
+	#Note: This a list of dimensions that angels should NOT teleport you to.
+	notAllowedDimensions = ["whis:witherstorm", "aoa3:nowhere", "witherstormmod:bowels", "minecraft:the_end"]
+	#just teleport. no damage.
+	justTeleport = false
+	#The maximum range a user can be teleported by the Angels
+	#Range: > 1
+	teleportRange = 300
+	#If this is enabled, angel teleporting can also tp the player to other dimensions
+	angelDimTeleport = true
+	#Should Angels target creative players?
+	aggroCreative = false
+
+[block]
+	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
+	spawnFromBlocks = false
+
+[misc]
+	#Toggle whether santa hats are shown at Xmas
+	showSantaHatsAtXmas = true
+	#Toggle certain angel models (Only applies to Entity)
+	allowedAngelTypes = ["DISASTER_MC", "DOCTOR", "ED", "ED_ANGEL_CHILD", "A_DIZZLE", "DYING", "VILLAGER", "VIO_1", "VIO_2", "SPARE_TIME"]
+	#Toggle certain angel variants (Only applies to Entity)
+	allowedVariants = ["weeping_angels:gold", "weeping_angels:diamond", "weeping_angels:iron", "weeping_angels:mossy", "weeping_angels:normal", "weeping_angels:basalt", "weeping_angels:rusted", "weeping_angels:rusted_no_arm", "weeping_angels:rusted_no_wing", "weeping_angels:rusted_no_head", "weeping_angels:dirt", "weeping_angels:emerald", "weeping_angels:copper", "weeping_angels:lapis_lazuli", "weeping_angels:quartz"]
+

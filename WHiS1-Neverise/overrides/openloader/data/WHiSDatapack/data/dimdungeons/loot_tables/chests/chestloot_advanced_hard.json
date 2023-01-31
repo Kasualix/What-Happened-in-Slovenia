@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 4
+      },
+  	  "name":"dimdungeons:advanced_hard",
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dimdungeons:chests/chestloot_4",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

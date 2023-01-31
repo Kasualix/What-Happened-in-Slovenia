@@ -1,0 +1,266 @@
+#No comment
+breakSpeedChanges = true
+#No comment
+movementChanges = true
+#No comment
+oxygenChanges = true
+#modid:entity, oxygenCapacity
+oxygenProviderEntities = []
+#modid:item, maxDivingDepth
+divingMaskProviderItems = ["better_diving:diving_mask, 40", "better_diving:rebreather, 60", "better_diving:reinforced_diving_mask, 40"]
+#modid:item, mainhand, offhand, feet, legs, chest, head, oxygenCapacity, needsDivingMask
+oxygenProviderItems = ["better_diving:standard_o2_tank, false, false, false, false, true, false, 600, true", "better_diving:high_capacity_o2_tank, false, false, false, false, true, false, 1800, true", "better_diving:reinforced_o2_tank, false, false, false, false, true, false, 600, true"]
+#modid:item, mainhand, offhand, feet, legs, chest, head, miningspeedBonus
+miningspeedProviderItems = ["better_diving:wetsuit_leggings, false, false, false, true, false, false, 0.15", "better_diving:improved_wetsuit_leggings, false, false, false, true, false, false, 0.3", "better_diving:reinforced_wetsuit_leggings, false, false, false, true, false, false, 0.15"]
+#modid:item, mainhand, offhand, feet, legs, chest, head, swimspeedBonus
+swimspeedProviderItems = ["better_diving:fins, false, false, true, false, false, false, 0.1667", "better_diving:ultra_glide_fins, false, false, true, false, false, false, 0.3333", "better_diving:reinforced_fins, false, false, true, false, false, false, 0.1667"]
+
+#No comment
+[powerCell]
+	#No comment
+	#Range: > 0
+	capacity = 2000000
+	#No comment
+	#Range: > 0
+	maxReceive = 5000
+	#No comment
+	#Range: > 0
+	maxExtract = 500
+	#No comment
+	#Range: > 0
+	energy = 2000000
+
+#No comment
+[divingGear]
+	#No comment
+	#Range: 0 ~ 1000000
+	durability = 60
+	#No comment
+	#Range: 0 ~ 1000
+	enchantability = 10
+	#No comment
+	protection = [1, 3, 5, 1]
+	#No comment
+	#Range: 0.0 ~ 1000.0
+	toughness = 0.0
+	#No comment
+	#Range: -1.0 ~ 1.0
+	knockbackResistance = 0.0
+
+#No comment
+[improvedDivingGear]
+	#No comment
+	#Range: 0 ~ 1000000
+	durability = 60
+	#No comment
+	#Range: 0 ~ 1000
+	enchantability = 10
+	#No comment
+	protection = [1, 3, 5, 1]
+	#No comment
+	#Range: 0.0 ~ 1000.0
+	toughness = 0.0
+	#No comment
+	#Range: -1.0 ~ 1.0
+	knockbackResistance = 0.0
+
+#No comment
+[reinforcedDivingGear]
+	#No comment
+	#Range: 0 ~ 1000000
+	durability = 80
+	#No comment
+	#Range: 0 ~ 1000
+	enchantability = 10
+	#No comment
+	protection = [2, 5, 7, 2]
+	#No comment
+	#Range: 0.0 ~ 1000.0
+	toughness = 0.5
+	#No comment
+	#Range: -1.0 ~ 1.0
+	knockbackResistance = 0.0
+
+#No comment
+[mining]
+	#Break speed modifier underwater with the Aqua Affinity enchantment. (Vanilla = 5.0)
+	#Range: 0.0 ~ 10.0
+	breakSpeedAquaAffinity = 1.25
+	#Base break speed in water. (Vanilla = 0.2)
+	#Range: 0.0 ~ 10.0
+	breakSpeedBase = 1.0
+
+#No comment
+[movement]
+	#Base swim speed. (Vanilla = 0.02)
+	#Range: 0.0 ~ 1.0
+	baseSwimSpeed = 0.04
+	#Bonus swim speed with Depth Strider enchantment.
+	#Range: -1.0 ~ 1.0
+	depthStriderAmount = 0.1
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	depthStriderOperation = 1
+	#Bonus swim speed when diving. (Diving means being underwater and pressing sprint + forward)
+	#Range: -1.0 ~ 1.0
+	divingAmount = 0.2
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	divingOperation = 1
+	#Bonus swim speed with Dolphin's Grace effect.
+	#Range: -1.0 ~ 1.0
+	dolphinsGraceAmount = 1.0
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	dolphinsGraceOperation = 1
+	#Enable/Disable swim speed penalty when having low hunger.
+	hungerModifier = true
+	#Hunger threshold at which the swim speed will start to decrease. (Example with hungerThreshold = 0.2 hungerAmount = -0.5: swimSpeedPenalty at 0.1 hunger = -0.0,  swimSpeedPenalty at 0.1 hunger = -0.25,  swimSpeedPenalty at 0.0 hunger = -0.5)
+	#Range: 0.0 ~ 1.0
+	hungerThreshold = 0.2
+	#No comment
+	#Range: -1.0 ~ 1.0
+	hungerAmount = -0.5
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	hungerOperation = 2
+	#Enable/Disable swim speed penalty when holding an item in the mainhand.
+	mainhandModifier = true
+	#No comment
+	#Range: -1.0 ~ 1.0
+	mainhandAmount = -0.05
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	mainhandOperation = 2
+	#Enable/Disable swim speed penalty when holding an item in the offhand.
+	offhandModifier = true
+	#No comment
+	#Range: -1.0 ~ 1.0
+	offhandAmount = -0.05
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	offhandOperation = 2
+	#Enable/Disable swim speed bonus when swimming at the water surface.
+	overwaterModifier = true
+	#No comment
+	#Range: -1.0 ~ 1.0
+	overwaterAmount = 0.2
+	#0 = add, 1 = multiply_base, 2 = mulitply (For more info check the minecraft wiki: https://minecraft.fandom.com/wiki/Attribute#Operations)
+	#Range: 0 ~ 2
+	overwaterOperation = 1
+	#When enabled sneaking in water only let's you descend slowly. The idea is that when you are in water you can still use items that require you to sneak without descending too far. Note that you can always use the descend key (default C) to descend while in water.
+	weakerSneakDescending = false
+
+#No comment
+[ores]
+
+	#No comment
+	[ores.limestone]
+		#No comment
+		enabled = false
+		#No comment
+		#Range: 0 ~ 1024
+		chance = 1
+		#No comment
+		#Range: 0 ~ 1024
+		minAmount = 0
+		#No comment
+		#Range: 0 ~ 1024
+		maxAmount = 2
+		#No comment
+		#Range: -1024 ~ 1024
+		minHeight = 0
+		#No comment
+		#Range: -1024 ~ 1024
+		maxHeight = 64
+
+	#No comment
+	[ores.sandstone]
+		#No comment
+		enabled = false
+		#No comment
+		#Range: 0 ~ 1024
+		chance = 1
+		#No comment
+		#Range: 0 ~ 1024
+		minAmount = 0
+		#No comment
+		#Range: 0 ~ 1024
+		maxAmount = 1
+		#No comment
+		#Range: -1024 ~ 1024
+		minHeight = 0
+		#No comment
+		#Range: -1024 ~ 1024
+		maxHeight = 40
+
+	#No comment
+	[ores.shale]
+		#No comment
+		enabled = false
+		#No comment
+		#Range: 0 ~ 1024
+		chance = 1
+		#No comment
+		#Range: 0 ~ 1024
+		minAmount = 3
+		#No comment
+		#Range: 0 ~ 1024
+		maxAmount = 8
+		#No comment
+		#Range: -1024 ~ 1024
+		minHeight = 0
+		#No comment
+		#Range: -1024 ~ 1024
+		maxHeight = 64
+
+#No comment
+[oxygen]
+	#Base diving depth. (Check 'oxygenEfficiencyRate' for more information)
+	#Range: 0 ~ 1024
+	oxygenBaseDivingDepth = 20
+	#Base oxygen capacity in ticks. (20 ticks = 1 second)
+	#Range: 0 ~ 1000000
+	oxygenCapacity = 900
+	#No comment
+	#Range: 0 ~ 1000000
+	oxygenCapacityRespiration = 300
+	#Enable/Disable decreased oxygen efficiency while diving deeper.
+	oxygenEfficiency = true
+	#Every x blocks below the max diving depth (defined by 'oxygenBaseDivingDepth' and equipment) consumes one unit of oxygen more per second.
+	#Range: 1 ~ 1024
+	oxygenEfficiencyRate = 4
+	#No comment
+	#Range: 1 ~ 100
+	oxygenRefillRate = 25
+
+#No comment
+[seamoth]
+	#Speed of the seamoth. (blocks per second = x * 400)
+	#Range: 0.0 ~ 1.0
+	seamothSpeed = 0.0275
+	#Energy usage of the seamoth per tick.
+	#Range: 0 ~ 1000000
+	seamothEnergyUsage = 100
+
+#No comment
+[underwater_visuals]
+	#(Vanilla = 0.0)
+	#Range: 0.0 ~ 1.0
+	brightnessDay = 0.3
+	#(Vanilla = 0.0)
+	#Range: 0.0 ~ 1.0
+	brightnessNight = 0.1
+	#(Vanilla = 1.0)
+	#Range: 0.0 ~ 1.0
+	fogBrightnessDay = 1.0
+	#(Vanilla = 1.0)
+	#Range: 0.0 ~ 1.0
+	fogBrightnessNight = 0.05
+	#(Vanilla = 0.02)
+	#Range: 0.0 ~ 1.0
+	fogDensityDay = 0.015
+	#(Vanilla = 0.02)
+	#Range: 0.0 ~ 1.0
+	fogDensityNight = 0.025
+

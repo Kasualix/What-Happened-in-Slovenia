@@ -1,0 +1,52 @@
+
+#Default Global Rule
+[global]
+	#The default global mobGriefing value which will be used when creating a new world.
+	mobGriefing = true
+
+#Default Entity Rules
+[entity]
+	#The default entity specific mobGriefing rules which will be used when creating a newworld or opening an existing world with no existing rule for the entity.
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:blaze" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:skeleton" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:zombified_piglin" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:fox" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:husk" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:ravager" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:sheep" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:ender_dragon" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:ghast" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:snow_golem" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:villager" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:enderman" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:silverfish" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:stray" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:zombie" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:creeper" = "FALSE"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:drowned" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:wither" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:zombie_villager" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:rabbit" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:evoker" = "INHERIT"
+

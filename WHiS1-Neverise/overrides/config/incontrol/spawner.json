@@ -1,0 +1,68 @@
+[
+    {
+        "mob": [
+            "upgrade_aquatic:lionfish",
+            "upgrade_aquatic:nautilus",
+            "upgrade_aquatic:perch",
+            "upgrade_aquatic:pike"
+        ],
+        "persecond": 0.8,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "aoa3:lborean",
+            "inwater": true,
+            "mindist": 32,
+            "maxdist": 48,
+            "minheight": 30,
+            "maxheight": 140,
+            "norestrictions": true,
+            "maxthis": 9
+        }
+    },
+    {
+        "mob": [
+            "upgrade_aquatic:great_thrasher",
+            "outvoted:kraken"
+        ],
+        "persecond": 0.5,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "aoa3:lborean",
+            "inwater": true,
+            "mindist": 32,
+            "maxdist": 48,
+            "minheight": 30,
+            "maxheight": 140,
+            "norestrictions": true,
+            "maxthis": 3
+        }
+    },
+    {
+        "mob": "outvoted:hunger",
+        "persecond": 0.5,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": [
+                "aoa3:barathos"
+            ],
+            "mindist": 32,
+            "maxdist": 48,
+            "minheight": 30,
+            "maxheight": 140,
+            "norestrictions": true,
+            "maxthis": 1
+        }
+    }
+]

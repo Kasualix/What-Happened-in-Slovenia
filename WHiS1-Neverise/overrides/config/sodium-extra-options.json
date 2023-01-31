@@ -1,0 +1,70 @@
+{
+  "animation_settings": {
+    "animation": true,
+    "water": true,
+    "lava": true,
+    "fire": false,
+    "portal": true,
+    "block_animations": true
+  },
+  "particle_settings": {
+    "particles": true,
+    "rain_splash": true,
+    "block_break": true,
+    "block_breaking": true,
+    "other": {
+      "minecraft:large_smoke": false,
+      "minecraft:portal": false,
+      "minecraft:lava": false,
+      "minecraft:bubble_pop": false,
+      "minecraft:flame": true,
+      "minecraft:poof": false,
+      "minecraft:smoke": false,
+      "minecraft:campfire_signal_smoke": false,
+      "minecraft:campfire_cosy_smoke": false,
+      "minecraft:rain": false,
+      "minecraft:falling_water": false,
+      "minecraft:falling_dust": false,
+      "minecraft:ash": false,
+      "minecraft:white_ash": false,
+      "minecraft:dust": false
+    }
+  },
+  "detail_settings": {
+    "sky": true,
+    "sun_moon": true,
+    "stars": true,
+    "rain_snow": false,
+    "biome_colors": true,
+    "sky_colors": true
+  },
+  "render_settings": {
+    "fog_distance": 33,
+    "light_updates": true,
+    "item_frame": true,
+    "armor_stand": true,
+    "painting": true,
+    "piston": true,
+    "beacon_beam": true,
+    "enchanting_table_book": true,
+    "item_frame_name_tag": true,
+    "player_name_tag": true
+  },
+  "extra_settings": {
+    "overlay_corner": "TOP_LEFT",
+    "text_contrast": "NONE",
+    "show_fps": false,
+    "show_f_p_s_extended": false,
+    "show_coords": false,
+    "reduce_resolution_on_mac": true,
+    "use_adaptive_sync": false,
+    "cloud_height": 255,
+    "toasts": false,
+    "instant_sneak": false,
+    "prevent_shaders": false,
+    "use_fast_random": true
+  },
+  "notification_settings": {
+    "hide_r_s_o_recommendation": true
+  }
+}

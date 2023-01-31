@@ -1,0 +1,118 @@
+{
+    "itemGroup.armor"                            : "我的世界：故事模式盔甲",
+  
+    "item.mcsaforge.adamantium_impervium_helmet"           : "艾德曼抗渗金头盔",
+    "item.mcsaforge.adamantium_impervium_chestplate"       : "艾德曼抗渗金胸甲",
+    "item.mcsaforge.adamantium_impervium_leggings"         : "艾德曼抗渗金护腿",
+    "item.mcsaforge.adamantium_impervium_boots"            : "艾德曼抗渗金靴子",
+  
+    "item.mcsaforge.champion_petra_helmet"                 : "冠军佩特拉头盔",
+    "item.mcsaforge.champion_petra_chestplate"             : "冠军佩特拉胸甲",
+    "item.mcsaforge.champion_petra_leggings"               : "冠军佩特拉护腿",
+    "item.mcsaforge.champion_petra_boots"                  : "冠军佩特拉靴子",
+  
+    "item.mcsaforge.dragonsbane_helmet"                    : "龙殇头盔",
+    "item.mcsaforge.dragonsbane_chestplate"                : "龙殇胸甲",
+    "item.mcsaforge.dragonsbane_leggings"                  : "龙殇护腿",
+    "item.mcsaforge.dragonsbane_boots"                     : "龙殇靴子",
+  
+    "item.mcsaforge.ellegaard_helmet"                      : "艾勒卡德的头盔",
+    "item.mcsaforge.ellegaard_chestplate"                  : "艾勒卡德的胸甲",
+    "item.mcsaforge.ellegaard_leggings"                    : "艾勒卡德的护腿",
+    "item.mcsaforge.ellegaard_boots"                       : "艾勒卡德的靴子",
+  
+    "item.mcsaforge.ender_defender_helmet"                 : "末影守卫者头盔",
+    "item.mcsaforge.ender_defender_chestplate"             : "末影守卫者胸甲",
+    "item.mcsaforge.ender_defender_leggings"               : "末影守卫者护腿",
+    "item.mcsaforge.ender_defender_boots"                  : "末影守卫者靴子",
+  
+    "item.mcsaforge.enderman_soren_helmet"                 : "索伦的末影人头盔",
+    "item.mcsaforge.enderman_soren_chestplate"             : "索伦的末影人胸甲",
+    "item.mcsaforge.enderman_soren_leggings"               : "索伦的末影人护腿",
+    "item.mcsaforge.enderman_soren_boots"                  : "索伦的末影人靴子",
+  
+    "item.mcsaforge.gabriel_helmet"                        : "加布里埃尔的头盔",
+    "item.mcsaforge.gabriel_chestplate"                    : "加布里埃尔的胸甲",
+    "item.mcsaforge.gabriel_leggings"                      : "加布里埃尔的护腿",
+    "item.mcsaforge.gabriel_boots"                         : "加布里埃尔的靴子",
+  
+    "item.mcsaforge.golden_goliath_helmet"                 : "哥利亚金头盔",
+    "item.mcsaforge.golden_goliath_chestplate"             : "哥利亚金胸甲",
+    "item.mcsaforge.golden_goliath_leggings"               : "哥利亚金护腿",
+    "item.mcsaforge.golden_goliath_boots"                  : "哥利亚金靴子",
+  
+    "item.mcsaforge.golden_goliath_circuitry_helmet"       : "带电哥利亚金头盔",
+    "item.mcsaforge.golden_goliath_circuitry_chestplate"   : "带电哥利亚金胸甲",
+    "item.mcsaforge.golden_goliath_circuitry_leggings"     : "带电哥利亚金护腿",
+    "item.mcsaforge.golden_goliath_circuitry_boots"        : "带电哥利亚金靴子",
+  
+    "item.mcsaforge.harpers_headset_helmet"                : "哈珀的耳机",
+  
+    "item.mcsaforge.ivor_helmet"                           : "艾沃尔的王冠",
+    "item.mcsaforge.ivor_chestplate"                       : "艾沃尔的胸甲",
+    "item.mcsaforge.ivor_leggings"                         : "艾沃尔的护腿",
+    "item.mcsaforge.ivor_boots"                            : "艾沃尔的靴子",
+  
+    "item.mcsaforge.lukas_helmet"                          : "卢卡斯的风镜",
+    "item.mcsaforge.lukas_chestplate"                      : "卢卡斯的胸甲",
+    "item.mcsaforge.lukas_leggings"                        : "卢卡斯的护腿",
+    "item.mcsaforge.lukas_boots"                           : "卢卡斯的靴子",
+  
+    "item.mcsaforge.magnus_helmet"                         : "马格纳斯的头盔",
+    "item.mcsaforge.magnus_chestplate"                     : "马格纳斯的胸甲",
+    "item.mcsaforge.magnus_leggings"                       : "马格纳斯的护腿",
+    "item.mcsaforge.magnus_boots"                          : "马格纳斯的靴子",
+  
+    "item.mcsaforge.ninja_ivor_helmet"                     : "艾沃尔忍者面罩",
+    "item.mcsaforge.ninja_ivor_chestplate"                 : "艾沃尔忍者胸甲",
+    "item.mcsaforge.ninja_ivor_leggings"                   : "艾沃尔忍者护腿",
+    "item.mcsaforge.ninja_ivor_boots"                      : "艾沃尔忍者靴子",
+  
+    "item.mcsaforge.olivia_helmet"                         : "奥利维亚的头盔",
+    "item.mcsaforge.olivia_chestplate"                     : "奥利维亚的胸甲",
+    "item.mcsaforge.olivia_leggings"                       : "奥利维亚的护腿",
+    "item.mcsaforge.olivia_boots"                          : "奥利维亚的靴子",
+  
+    "item.mcsaforge.petra_helmet"                          : "佩特拉的头盔",
+    "item.mcsaforge.petra_chestplate"                      : "佩特拉的胸甲",
+    "item.mcsaforge.petra_leggings"                        : "佩特拉的护腿",
+    "item.mcsaforge.petra_boots"                           : "佩特拉的靴子",
+  
+    "item.mcsaforge.prismarine_soldier_helmet"             : "海晶士兵头盔",
+    "item.mcsaforge.prismarine_soldier_chestplate"         : "海晶士兵胸甲",
+    "item.mcsaforge.prismarine_soldier_leggings"           : "海晶士兵护腿",
+    "item.mcsaforge.prismarine_soldier_boots"              : "海晶士兵靴子",
+  
+    "item.mcsaforge.redstone_riot_helmet"                  : "红石狂暴头盔",
+    "item.mcsaforge.redstone_riot_chestplate"              : "红石狂暴胸甲",
+    "item.mcsaforge.redstone_riot_leggings"                : "红石狂暴护腿",
+    "item.mcsaforge.redstone_riot_boots"                   : "红石狂暴靴子",
+  
+    "item.mcsaforge.shield_of_infinity_helmet"             : "无限之盾头盔",
+    "item.mcsaforge.shield_of_infinity_chestplate"         : "无限之盾胸甲",
+    "item.mcsaforge.shield_of_infinity_leggings"           : "无限之盾护腿",
+    "item.mcsaforge.shield_of_infinity_boots"              : "无限之盾靴子",
+  
+    "item.mcsaforge.soren_helmet"                          : "索伦的帽子",
+    "item.mcsaforge.soren_chestplate"                      : "索伦的胸甲",
+    "item.mcsaforge.soren_leggings"                        : "索伦的护腿",
+    "item.mcsaforge.soren_boots"                           : "索伦的靴子",
+  
+    "item.mcsaforge.star_shield_helmet"                    : "星盾头盔",
+    "item.mcsaforge.star_shield_chestplate"                : "星盾胸甲",
+    "item.mcsaforge.star_shield_leggings"                  : "星盾护腿",
+    "item.mcsaforge.star_shield_boots"                     : "星盾靴子",
+  
+    "item.mcsaforge.swordbreaker_helmet"                   : "破剑者头盔",
+    "item.mcsaforge.swordbreaker_chestplate"               : "破剑者胸甲",
+    "item.mcsaforge.swordbreaker_leggings"                 : "破剑者护腿",
+    "item.mcsaforge.swordbreaker_boots"                    : "破剑者靴子",
+  
+    "item.mcsaforge.tim_helmet"                            : "蒂姆的帽子",
+    "item.mcsaforge.tim_chestplate"                        : "蒂姆的胸甲",
+    "item.mcsaforge.tim_leggings"                          : "蒂姆的护腿",
+    "item.mcsaforge.tim_boots"                             : "蒂姆的靴子",
+  
+    "block.mcsaforge.white_pumpkin"                        : "白南瓜头",
+    "block.mcsaforge.carved_white_pumpkin"                 : "雕刻过的白南瓜头"
+}

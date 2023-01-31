@@ -1,0 +1,49 @@
+
+[rising_uppercut]
+	#Attack damage of rising uppercut.
+	#Range: 0.1 ~ 1000.0
+	DAMAGE = 16.0
+	#Cooldown Time of rising uppercut. Its unit is tick.
+	#Cooldown can not be cancelled due to preventing abuse.
+	#Range: 10 ~ 10000
+	COOLDOWN = 60
+	#Duration of uprising effect of rising uppercut. Its unit is tick.
+	#Range: 1 ~ 10000
+	UPRISING_TIME = 8
+	#Duration of floating effect of rising uppercut. Its unit is tick.
+	#Range: 1 ~ 10000
+	FLOATING_TIME = 4
+	#Index of rising speed when rising uppercut is activated.
+	#It's not recommended to alter this value greatly.
+	#Range: 0.01 ~ 0.5
+	RISING_SPEED_INDEX = 0.1
+
+[rocket_punch]
+	#Attack damage of rocket punch per tick of charging.
+	#Range: 0.1 ~ 1000.0
+	DAMAGE = 0.5
+	#Cooldown Time of rocket punch. Its unit is tick.
+	#Cooldown can not be cancelled due to preventing abuse.
+	#Range: 10 ~ 10000
+	COOLDOWN = 120
+	#Max Charge Time of rocket punch. Its unit is tick.
+	#Range: 1 ~ 10000
+	MAX_CHARGE_TIME = 20
+	#Index of player's movement speed when rocket punch is activated.
+	#It's not recommended to alter this value greatly.
+	#Range: 0.1 ~ 10.0
+	MOVEMENT_SPEED_INDEX = 2.0
+	#Index of victim's movement speed when one is being knockbacked by rocket punch.
+	#It's not recommended to alter this value greatly.
+	#Range: 0.1 ~ 10.0
+	KNOCKBACK_SPEED_INDEX = 2.0
+
+[safe_landing]
+	#If it's set to true, rising uppercut grants player Safe Landing effect by default.
+	DO_NOT_REQUIRE_ENCHANTMENT = true
+	#Should Safe Landing effect invalidate once a falling damage is negated.
+	DISPOSABLE_EFFECT = false
+	#The default duration of Safe Landing effect granted by enchantment. Its unit is tick.
+	#Range: 20 ~ 72000
+	DEFAULT_DURATION = 100
+

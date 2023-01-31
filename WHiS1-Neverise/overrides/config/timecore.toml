@@ -1,0 +1,10 @@
+
+#No comment
+[timecore]
+	#Enables development features. Set it to true only if you need to test something, because it may send sensitive server data to clients.
+	#Default: false
+	enable_dev_features = false
+	#If true, suppresses annoying experimental warning, when you're trying to load world with experimental world settings, like new biomes, etc.
+	#Default: true
+	suppress_experimental_stuff_warning = true
+

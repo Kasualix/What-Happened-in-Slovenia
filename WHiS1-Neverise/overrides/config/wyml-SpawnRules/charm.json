@@ -1,0 +1,30 @@
+{
+	"mod": "charm",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"coral_squid": {
+						// Do not edit this name
+						"name": "coral_squid",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"moobloom": {
+						// Do not edit this name
+						"name": "moobloom",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+
+["Cursery settings"]
+	#Should applying treasure enchants be excluded, default:false
+	excludeTreasure = false
+	#Whether to log debug messages about curse rng beeing rolled, default = false
+	debugTries = false
+	#List of items to disable, they get replaced by air e.g. ["minecraft:elytra"]
+	disabledItems = []
+	#Should enchanted books show a hint for curse magic, default:true
+	showDesc = true
+	#Add a curse id here to exclude it from beeing applied. To put multiple values seperate them by commas like this:  ["minecraft:curse", "mod:curse;"] 
+	excludedCUrses = []
+	#Should enchanting success play a sound and show particles, default:true
+	visualSuccess = true
+	#Base curse application chance, scales up the more enchants the item has. Default:15 %
+	#Range: 1 ~ 100
+	basecursechance = 6
+

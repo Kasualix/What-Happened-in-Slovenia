@@ -1,0 +1,29 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "whis:storm", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 50,
+        "maxY": 80,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 16,  
+    "minimumSpacing": 12,          
+    "seed": 328978,
+    "avoidOthers": true,       
+    
+    "dimensions": [
+        "whis:witherstorm"
+    ]
+}
